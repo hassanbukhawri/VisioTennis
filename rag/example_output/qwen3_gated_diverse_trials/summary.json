@@ -1,0 +1,54 @@
+{
+  "n_trials": 6,
+  "max_attempts": 3,
+  "n_success": 6,
+  "n_needed_retry": 1,
+  "total_attempts": 7,
+  "avg_attempts_overall": 1.1666666666666667,
+  "total_latency_s": 234.65599999999904,
+  "mean_retrieval_recall": 0.8333333333333334,
+  "trials": [
+    {
+      "session_name": "clutch_breakdown",
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 38.28099999999995,
+      "retrieval_recall": 1.0
+    },
+    {
+      "session_name": "movement_fatigue",
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 33.3130000000001,
+      "retrieval_recall": 1.0
+    },
+    {
+      "session_name": "rally_style_shift",
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 27.64099999999962,
+      "retrieval_recall": 1.0
+    },
+    {
+      "session_name": "second_serve_ace_decline",
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 23.921000000000276,
+      "retrieval_recall": 0.3333333333333333
+    },
+    {
+      "session_name": "serve_breakdown",
+      "success": true,
+      "n_attempts": 2,
+      "total_latency_s": 82.57799999999952,
+      "retrieval_recall": 0.6666666666666666
+    },
+    {
+      "session_name": "unforced_error_spike",
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 28.92199999999957,
+      "retrieval_recall": 1.0
+    }
+  ]
+}

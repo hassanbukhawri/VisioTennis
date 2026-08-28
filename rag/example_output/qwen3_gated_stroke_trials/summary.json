@@ -1,0 +1,35 @@
+{
+  "n_trials": 4,
+  "max_attempts": 3,
+  "n_success": 4,
+  "n_needed_retry": 2,
+  "total_attempts": 6,
+  "avg_attempts_overall": 1.5,
+  "total_latency_s": 434.0779999999995,
+  "trials": [
+    {
+      "stroke_class": "backhand",
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 69.875
+    },
+    {
+      "stroke_class": "forehand",
+      "success": true,
+      "n_attempts": 2,
+      "total_latency_s": 183.07799999999952
+    },
+    {
+      "stroke_class": "serve",
+      "success": true,
+      "n_attempts": 2,
+      "total_latency_s": 129.84299999999985
+    },
+    {
+      "stroke_class": "volley",
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 51.28200000000015
+    }
+  ]
+}

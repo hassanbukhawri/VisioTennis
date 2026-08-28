@@ -1,0 +1,9 @@
+grounding_rate = 1/4 grounded_observation items pass (25.0%)
+WARNING: 1 general_note item(s) contain a digit with no citation -- possible ungrounded claim mislabeled as non-factual
+
+  [GROUNDED] (grounded_observation) 'Your unforced error rate this session was 0.34 per point, noticeably above your usual range -- worth reviewing shot selection on medium-pace balls.' -- features.unforced_error_rate=0.3397054701523686 confirmed
+  [VALUE_MISMATCH] (grounded_observation) 'Your double fault rate was unusually low this session at 0.01 per service point.' -- cited 0.01, actual value at 'features.double_fault_rate' is 0.15929321753546458
+  [FIELD_NOT_FOUND] (grounded_observation) 'Your average first-serve spin rate was well below tour average this session.' -- key 'first_serve_spin_rpm' not found after features in path 'features.first_serve_spin_rpm'
+  [WRONG_RECORD] (grounded_observation) 'Compared to your session last Tuesday, your movement speed has dropped noticeably.' -- no known SessionRecord with id=sess_last_tuesday_not_provided among the records provided
+  [OK_GENERAL_NOTE] (general_note) 'Keep up the consistent effort -- small, steady improvements add up over a season.'
+  [SUSPECT_GENERAL_NOTE] (general_note) "You've now had 4 sessions in a row with elevated error rates." -- contains a digit but was not submitted as a citable claim

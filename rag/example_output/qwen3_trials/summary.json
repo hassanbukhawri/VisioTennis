@@ -1,0 +1,40 @@
+[
+  {
+    "trial": 1,
+    "latency_s": 29.875,
+    "parse_ok": false,
+    "n_items": 0,
+    "n_pass": 0,
+    "rate_pct": 0.0,
+    "fail_kinds": [
+      "PARSE_FAILURE"
+    ]
+  },
+  {
+    "trial": 2,
+    "latency_s": 24.57799999999952,
+    "parse_ok": true,
+    "n_items": 3,
+    "n_pass": 3,
+    "rate_pct": 100.0,
+    "fail_kinds": []
+  },
+  {
+    "trial": 3,
+    "latency_s": 30.5,
+    "parse_ok": true,
+    "n_items": 3,
+    "n_pass": 3,
+    "rate_pct": 100.0,
+    "fail_kinds": []
+  },
+  {
+    "trial": 4,
+    "latency_s": 22.39099999999962,
+    "parse_ok": true,
+    "n_items": 3,
+    "n_pass": 3,
+    "rate_pct": 100.0,
+    "fail_kinds": []
+  }
+]

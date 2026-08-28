@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "text": "The player's double fault rate is 0.1593 (15.93%), which is higher than the average for this player.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "636547890123456789",
+        "ir_field_path": "features.double_fault_rate",
+        "cited_value": 0.15929321753546458
+      }
+    },
+    {
+      "text": "The player's unforced error rate is 0.2857 (28.57%), which is higher than the average for this player.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "636547890123456789",
+        "ir_field_path": "features.unforced_error_rate",
+        "cited_value": 0.2857142857142857
+      }
+    },
+    {
+      "text": "The player's first serve points won percentage is 0.6286 (62.86%), which is lower than the average for this player.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "636547890123456789",
+        "ir_field_path": "features.first_serve_points_won_pct",
+        "cited_value": 0.6285714285714286
+      }
+    },
+    {
+      "text": "The player's first serve percentage is 0.6571 (65.71%), which is within the average range for this player.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "636547890123456789",
+        "ir_field_path": "features.first_serve_pct",
+        "cited_value": 0.6571428571428571
+      }
+    },
+    {
+      "text": "The player's net approach percentage is 0.4286 (42.86%), which is within the average range for this player.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "636547890123456789",
+        "ir_field_path": "features.net_approach_pct",
+        "cited_value": 0.42857142857142855
+      }
+    },
+    {
+      "text": "The player's backhand slice percentage is 0.2857 (28.57%), which is within the average range for this player.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "636547890123456789",
+        "ir_field_path": "features.backhand_slice_pct",
+        "cited_value": 0.2857142857142857
+      }
+    }
+  ]
+}

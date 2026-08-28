@@ -1,0 +1,6 @@
+# torch / torchvision assumed already installed with CUDA support (see repo env check)
+opencv-python>=4.8
+numpy>=1.24
+onnx>=1.15
+# onnxruntime==1.18.1, not >=1.19 or onnxruntime-gpu -- see ball_tracking/requirements.txt
+onnxruntime==1.18.1

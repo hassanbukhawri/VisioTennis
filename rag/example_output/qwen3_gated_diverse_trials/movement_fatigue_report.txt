@@ -1,0 +1,5 @@
+grounding_rate = 3/3 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) "Your reaction time was slower than usual today, which is a classic fatigue marker. Check how long you'd been playing and the time of day before overinterpreting." -- features.avg_reaction_time_ms=403.5580028607616 confirmed
+  [GROUNDED] (grounded_observation) 'You moved slower than usual today, but your total distance covered was normal. This suggests less urgency on individual points, not less overall effort. Check your split-step timing on video.' -- features.court_coverage_speed_mps=0.7578988393420136 confirmed
+  [GROUNDED] (grounded_observation) 'You covered less ground than usual today. Before treating that as a fitness or effort issue, check whether the session was shorter or points ended quicker than usual.' -- features.total_distance_covered_m=689.7231725258166 confirmed

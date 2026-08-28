@@ -1,0 +1,36 @@
+{
+  "trial": 1,
+  "success": true,
+  "n_attempts": 3,
+  "total_latency_s": 192.57799999999997,
+  "failure_reason": "",
+  "attempts": [
+    {
+      "attempt_num": 1,
+      "latency_s": 93.35899999999992,
+      "parse_ok": false,
+      "parse_error": "1 validation error for CoachingResponse\nitems\n  Field required [type=missing, input_value={'type': 'grounded_observ...': 0.15929321753546458}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.5/v/missing",
+      "grounded_observation_count": 0,
+      "grounded_pass_count": 0,
+      "accepted": false
+    },
+    {
+      "attempt_num": 2,
+      "latency_s": 60.9380000000001,
+      "parse_ok": false,
+      "parse_error": "6 validation errors for CoachingResponse\nitems.0.citation.ir_field_path\n  Field required [type=missing, input_value={'record_type': 'SessionR...ures.double_fault_rate'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.5/v/missing\nitems.0.citation.cited_value\n  Field required [type=missing, input_value={'record_type': 'SessionR...ures.double_fault_rate'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.5/v/missing\nitems.1.citation.ir_field_path\n  Field required [type=missing, input_value={'record_type': 'SessionR...es.unforced_error_rate'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.5/v/missing\nitems.1.citation.cited_value\n  Field required [type=missing, input_value={'record_type': 'SessionR...es.unforced_error_rate'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.5/v/missing\nitems.2.citation.ir_field_path\n  Field required [type=missing, input_value={'record_type': 'SessionR...first_serve_points_won'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.5/v/missing\nitems.2.citation.cited_value\n  Field required [type=missing, input_value={'record_type': 'SessionR...first_serve_points_won'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.5/v/missing",
+      "grounded_observation_count": 0,
+      "grounded_pass_count": 0,
+      "accepted": false
+    },
+    {
+      "attempt_num": 3,
+      "latency_s": 38.28099999999995,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 3,
+      "grounded_pass_count": 3,
+      "accepted": true
+    }
+  ]
+}

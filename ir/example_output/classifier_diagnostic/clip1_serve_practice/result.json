@@ -1,0 +1,96 @@
+{
+  "clip_name": "clip1_serve_practice",
+  "source_path": "D:\\VisioTennis-app\\mvp\\real_footage_test\\clip1_serve_practice.mp4",
+  "kind": "video",
+  "n_frames": 288,
+  "n_pose_detected": 288,
+  "pose_detection_rate": 1.0,
+  "dominant_wrist": "left",
+  "n_candidates": 4,
+  "candidates": [
+    {
+      "contact_frame": 48,
+      "window_start": 18,
+      "window_end": 78,
+      "speed": 0.029135696589946747,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 7.5060882568359375,
+      "predicted_class": "volley",
+      "confidence": 0.6946534514427185,
+      "class_probabilities": {
+        "forehand": 0.3040348291397095,
+        "backhand": 0.0012840945273637772,
+        "serve": 1.0433089300931897e-05,
+        "volley": 0.6946534514427185,
+        "smash": 1.7126125385402702e-05
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.20435407757759094,
+      "min_wrist_minus_nose_y_in_window": 0.1755528748035431,
+      "wrist_ever_above_nose_in_window": false
+    },
+    {
+      "contact_frame": 108,
+      "window_start": 78,
+      "window_end": 138,
+      "speed": 0.11499232798814774,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 10.69512939453125,
+      "predicted_class": "volley",
+      "confidence": 0.6055434346199036,
+      "class_probabilities": {
+        "forehand": 0.3484590947628021,
+        "backhand": 0.045261722058057785,
+        "serve": 0.0006154453731141984,
+        "volley": 0.6055434346199036,
+        "smash": 0.00012035008694510907
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.15996840596199036,
+      "min_wrist_minus_nose_y_in_window": 0.06254890561103821,
+      "wrist_ever_above_nose_in_window": false
+    },
+    {
+      "contact_frame": 155,
+      "window_start": 125,
+      "window_end": 185,
+      "speed": 0.0321822464466095,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 9.202339172363281,
+      "predicted_class": "volley",
+      "confidence": 0.7002316117286682,
+      "class_probabilities": {
+        "forehand": 0.2982100248336792,
+        "backhand": 0.0015408253530040383,
+        "serve": 1.0066552022180986e-05,
+        "volley": 0.7002316117286682,
+        "smash": 7.5197308433416765e-06
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.1502060890197754,
+      "min_wrist_minus_nose_y_in_window": 0.11046093702316284,
+      "wrist_ever_above_nose_in_window": false
+    },
+    {
+      "contact_frame": 235,
+      "window_start": 205,
+      "window_end": 265,
+      "speed": 0.08186060935258865,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 38.904449462890625,
+      "predicted_class": "volley",
+      "confidence": 0.9070857167243958,
+      "class_probabilities": {
+        "forehand": 0.009040004573762417,
+        "backhand": 0.08378347009420395,
+        "serve": 2.5588094558770536e-06,
+        "volley": 0.9070857167243958,
+        "smash": 8.826875273371115e-05
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.19716107845306396,
+      "min_wrist_minus_nose_y_in_window": 0.026772260665893555,
+      "wrist_ever_above_nose_in_window": false
+    }
+  ]
+}

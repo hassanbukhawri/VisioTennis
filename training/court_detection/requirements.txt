@@ -1,0 +1,12 @@
+# torch / torchvision assumed already installed with CUDA support (see repo env check)
+ultralytics>=8.3
+onnx>=1.15
+# Do NOT let Ultralytics auto-install onnxruntime-gpu for ONNX export -- its Windows
+# wheel (>=1.19, confirmed through 1.27.0) fails to load its CUDA DLLs on this machine,
+# and it OVERWRITES a working CPU onnxruntime install in-place because both packages
+# install into the same "onnxruntime" import path. Run exports with
+# YOLO_AUTOINSTALL=False set, and use CPU onnxruntime==1.18.1 (see ball_tracking/
+# requirements.txt) for the sanity-check inference. Also pass simplify=False to
+# model.export() -- onnxslim's simplify pass segfaults for the same reason
+# onnx.checker.check_model() does (onnx==1.22.0 / protobuf==5.29.5 native ABI mismatch).
+onnxruntime==1.18.1

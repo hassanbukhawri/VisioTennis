@@ -1,0 +1,117 @@
+{
+  "clip_name": "game4_clip1_broadcast_close",
+  "source_path": "D:\\VisioTennis-app\\data\\VisioTennis\\Dataset\\Ball Tracker+Bounce\\game4\\Clip1",
+  "kind": "frame_dir",
+  "n_frames": 598,
+  "n_pose_detected": 448,
+  "pose_detection_rate": 0.7491638795986622,
+  "dominant_wrist": "left",
+  "n_candidates": 5,
+  "candidates": [
+    {
+      "contact_frame": 64,
+      "window_start": 34,
+      "window_end": 94,
+      "speed": 0.18148216605186462,
+      "window_valid_fraction": 0.8333333333333334,
+      "trunk_rotation_peak": 176.42308044433594,
+      "predicted_class": "backhand",
+      "confidence": 0.9983914494514465,
+      "class_probabilities": {
+        "forehand": 0.0001745077024679631,
+        "backhand": 0.9983914494514465,
+        "serve": 0.0011827235575765371,
+        "volley": 4.6342982386704534e-05,
+        "smash": 0.00020507904991973191
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.10945361852645874,
+      "min_wrist_minus_nose_y_in_window": -0.07593691349029541,
+      "wrist_ever_above_nose_in_window": true
+    },
+    {
+      "contact_frame": 110,
+      "window_start": 80,
+      "window_end": 140,
+      "speed": 0.035979434847831726,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 19.457660675048828,
+      "predicted_class": "backhand",
+      "confidence": 0.9993288516998291,
+      "class_probabilities": {
+        "forehand": 9.75174261839129e-05,
+        "backhand": 0.9993288516998291,
+        "serve": 0.00020691074314527214,
+        "volley": 0.00034326466266065836,
+        "smash": 2.346815017517656e-05
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.11698710918426514,
+      "min_wrist_minus_nose_y_in_window": -0.07593691349029541,
+      "wrist_ever_above_nose_in_window": true
+    },
+    {
+      "contact_frame": 166,
+      "window_start": 136,
+      "window_end": 196,
+      "speed": 0.09264000505208969,
+      "window_valid_fraction": 0.9166666666666666,
+      "trunk_rotation_peak": 38.43481636047363,
+      "predicted_class": "backhand",
+      "confidence": 0.9999052286148071,
+      "class_probabilities": {
+        "forehand": 2.3943384803715162e-05,
+        "backhand": 0.9999052286148071,
+        "serve": 2.5141614514723187e-06,
+        "volley": 6.61403319099918e-05,
+        "smash": 2.18153923015052e-06
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.006670534610748291,
+      "min_wrist_minus_nose_y_in_window": -0.0016865134239196777,
+      "wrist_ever_above_nose_in_window": true
+    },
+    {
+      "contact_frame": 302,
+      "window_start": 272,
+      "window_end": 332,
+      "speed": 0.1727132946252823,
+      "window_valid_fraction": 0.8666666666666667,
+      "trunk_rotation_peak": 145.6509780883789,
+      "predicted_class": "backhand",
+      "confidence": 0.9858714938163757,
+      "class_probabilities": {
+        "forehand": 0.00040442930185236037,
+        "backhand": 0.9858714938163757,
+        "serve": 0.0003832417423836887,
+        "volley": 0.013124101795256138,
+        "smash": 0.0002167524362448603
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.09392136335372925,
+      "min_wrist_minus_nose_y_in_window": -0.05808073282241821,
+      "wrist_ever_above_nose_in_window": true
+    },
+    {
+      "contact_frame": 457,
+      "window_start": 427,
+      "window_end": 487,
+      "speed": 0.32477426528930664,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 156.31444549560547,
+      "predicted_class": "backhand",
+      "confidence": 0.9603049159049988,
+      "class_probabilities": {
+        "forehand": 0.002315632766112685,
+        "backhand": 0.9603049159049988,
+        "serve": 0.0005086270393803716,
+        "volley": 0.03634776920080185,
+        "smash": 0.0005230222013778985
+      },
+      "wrist_above_nose_at_contact": true,
+      "wrist_minus_nose_y": -0.07586437463760376,
+      "min_wrist_minus_nose_y_in_window": -0.07586437463760376,
+      "wrist_ever_above_nose_in_window": true
+    }
+  ]
+}

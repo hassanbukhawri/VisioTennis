@@ -1,0 +1,94 @@
+{
+  "second_serve_ace_decline": {
+    "before": {
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 57.09400000000005,
+      "items": [
+        {
+          "type": "grounded_observation",
+          "text": "Your second-serve points won percentage is 9.07%, which is 6.0 standard deviations below average. Consider adjusting your second-serve placement or checking if the returner is reading your serve well."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Your ace rate is 0.0%, which is 3.2 standard deviations below average. Focus on consistency in your first serve and mental preparation to increase this."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "You made more unforced errors than usual today (0.25). Check if fatigue is affecting your technique, especially later in the session."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Your reaction time was slower than usual (264.77ms), which could indicate fatigue. Ensure adequate rest between points and check your session timing."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "You covered a significant amount of court (2487.94m), showing good movement. However, ensure this distance is efficient and sustainable during longer rallies."
+        }
+      ],
+      "failure_reason": ""
+    },
+    "after": {
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 24.811999999999898,
+      "items": [
+        {
+          "type": "grounded_observation",
+          "text": "Your second-serve points won percentage was 9.07%, which is 6.0 standard deviations below average. This suggests the returner may have read your second serve well today, but consider checking your serve placement and follow-through for consistency."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "You had zero aces today, which is 3.2 standard deviations below average. This could indicate a lack of opportunity, technical issues with your first serve, or strategic adjustments — review your serve delivery and target selection."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "You made more unforced errors than usual today (0.25 errors per point). Check when they occurred — a cluster late in the session points to fatigue, so rest more between reps; errors on one specific shot suggest technique refinement is needed."
+        }
+      ],
+      "failure_reason": ""
+    }
+  },
+  "rally_style_shift": {
+    "before": {
+      "success": true,
+      "n_attempts": 2,
+      "total_latency_s": 85.85899999999947,
+      "items": [
+        {
+          "type": "grounded_observation",
+          "text": "Your winners rate of 0.314 is significantly higher than average, suggesting you were more aggressive in attacking opportunities today."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Unforced error rate of 0.249 is elevated compared to typical patterns, which may indicate fatigue or inconsistent technique execution."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Average rally length of 1.00 is shorter than usual, reflecting a more defensive approach to points today."
+        }
+      ],
+      "failure_reason": ""
+    },
+    "after": {
+      "success": true,
+      "n_attempts": 2,
+      "total_latency_s": 82.26599999999962,
+      "items": [
+        {
+          "type": "grounded_observation",
+          "text": "Your winners rate was 31.4% today, which moved in the same direction as your unforced errors. This suggests a shift in how aggressively you were playing, not two separate issues to fix."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Your points ran shorter than usual today, but your winners were down. This points to a more passive, defensive session. That's fine against a tough opponent, but worth noticing if it keeps happening."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "You made more unforced errors than usual today. Check when they happened -- a cluster late in the session points to fatigue, so rest more between reps; errors on one specific shot point to that shot's technique instead."
+        }
+      ],
+      "failure_reason": ""
+    }
+  }
+}

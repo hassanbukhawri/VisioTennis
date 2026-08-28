@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "text": "You double-faulted more than usual today, alongside a lower first-serve percentage – that combination usually means you pushed too hard on the second serve under pressure, not a toss problem. Check whether they clustered on break points or late in games; if so, that's pressure, not technique.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.double_fault_rate",
+        "cited_value": 0.15929321753546458
+      }
+    },
+    {
+      "text": "You made more unforced errors than usual today. Check when they happened – a cluster late in the session points to fatigue, so rest a bit more between reps; errors on one specific shot point to that shot's technique instead.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.unforced_error_rate",
+        "cited_value": 0.3397054701523686
+      }
+    },
+    {
+      "text": "You're winning fewer points behind your first serve than usual this session. Before assuming something's wrong with your game, consider that the returner may just have read your serve well today – this kind of dip is often about them, not you.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.first_serve_points_won_pct",
+        "cited_value": 53.73725822766315
+      }
+    }
+  ]
+}

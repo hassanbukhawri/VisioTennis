@@ -1,0 +1,9 @@
+# torch / torchvision assumed already installed with CUDA support (see repo env check)
+opencv-python>=4.8
+numpy>=1.24
+onnx>=1.15
+# onnxruntime-gpu's Windows wheel (>=1.19) failed to load its CUDA DLLs on this
+# machine, and even CPU-only onnxruntime==1.27.0 segfaulted in onnx.checker
+# (onnx/protobuf native ABI mismatch). onnxruntime==1.18.1 works cleanly for
+# both; export scripts only use CPUExecutionProvider for the sanity check anyway.
+onnxruntime==1.18.1

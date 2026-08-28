@@ -1,0 +1,30 @@
+{
+  "session_name": "second_serve_ace_decline",
+  "explanation": "second_serve_points_won_pct=9.07 (6.0 std below average); ace_rate=0.00 (3.2 std below average); unforced_error_rate=0.25 (1.6 std above average)",
+  "expected_features": [
+    "ace_rate",
+    "second_serve_points_won_pct",
+    "unforced_error_rate"
+  ],
+  "retrieved_topics": [
+    "avg_reaction_time_ms",
+    "first_serve_points_won_pct",
+    "unforced_error_rate"
+  ],
+  "retrieval_recall": 0.3333333333333333,
+  "success": true,
+  "n_attempts": 1,
+  "total_latency_s": 23.921000000000276,
+  "failure_reason": "",
+  "attempts": [
+    {
+      "attempt_num": 1,
+      "latency_s": 23.921000000000276,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 3,
+      "grounded_pass_count": 3,
+      "accepted": true
+    }
+  ]
+}

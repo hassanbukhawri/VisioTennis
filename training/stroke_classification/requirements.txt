@@ -1,0 +1,16 @@
+# torch / torchvision assumed already installed with CUDA support (see repo env check)
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+onnx>=1.15
+# onnxruntime==1.18.1, not >=1.19 or onnxruntime-gpu -- see ball_tracking/requirements.txt
+onnxruntime==1.18.1
+
+# Only needed for ir/populate_e2e.py (extracting pose features from OUR OWN
+# video, since THETIS ships pre-extracted features with no raw video in this
+# repo -- see ir/DESIGN.md "Composite examples vs. the true end-to-end
+# example"). Not needed for training/inference against X_*.npy.
+mediapipe==0.10.35
+# populate_e2e.py downloads the ~9MB pose_landmarker_full.task model bundle
+# itself on first run (urllib, from Google's public mediapipe-models bucket)
+# if training/stroke_classification/pose_landmarker_full.task is missing.

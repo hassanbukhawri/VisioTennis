@@ -1,0 +1,89 @@
+{
+  "stroke_class": "serve",
+  "predicted_class": "serve",
+  "notable_features": [
+    {
+      "feature": "shoulder_hip_separation_deg",
+      "value": 1.9807281494140625,
+      "stroke_class": "serve",
+      "percentile": 4.8,
+      "n": 398,
+      "low_confidence": false,
+      "tail": true
+    },
+    {
+      "feature": "knee_flex_right_deg",
+      "value": 147.9411585655812,
+      "stroke_class": "serve",
+      "percentile": 5.8,
+      "n": 398,
+      "low_confidence": false,
+      "tail": true
+    },
+    {
+      "feature": "stance_width_ratio",
+      "value": 0.5257604211251412,
+      "stroke_class": "serve",
+      "percentile": 6.0,
+      "n": 398,
+      "low_confidence": false,
+      "tail": true
+    }
+  ],
+  "success": true,
+  "n_attempts": 2,
+  "total_latency_s": 129.84299999999985,
+  "failure_reason": "",
+  "generated_items": [
+    {
+      "type": "grounded_observation",
+      "text": "Your shoulder-hip separation angle is unusually low, which may indicate a compact swing plane. This isn't inherently problematic, but consider checking if it aligns with your balance and follow-through mechanics.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "cde6061f-3bb7-4682-8335-4b886d8de6d6",
+        "ir_field_path": "biomechanics_percentile.shoulder_hip_separation_deg",
+        "cited_value": 4.8
+      }
+    },
+    {
+      "type": "grounded_observation",
+      "text": "Your right knee flex at contact is on the lower end of the spectrum, which is typical for players with a more linear leg motion. This doesn't directly impact performance but could be worth examining alongside your weight transfer patterns.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "cde6061f-3bb7-4682-8335-4b886d8de6d6",
+        "ir_field_path": "biomechanics_percentile.knee_flex_right_deg",
+        "cited_value": 5.8
+      }
+    },
+    {
+      "type": "grounded_observation",
+      "text": "Your stance width at contact is narrower than most players, which is consistent with a focused, compact swing approach. This may contribute to stability but should be evaluated in relation to your overall footwork pattern.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "cde6061f-3bb7-4682-8335-4b886d8de6d6",
+        "ir_field_path": "biomechanics_percentile.stance_width_ratio",
+        "cited_value": 6.0
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "attempt_num": 1,
+      "latency_s": 37.35899999999947,
+      "parse_ok": false,
+      "parse_error": "1 validation error for CoachingResponse\nitems.3.type\n  Field required [type=missing, input_value={'text': 'All these metri...argets for adjustment.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing",
+      "grounded_observation_count": 0,
+      "grounded_pass_count": 0,
+      "accepted": false
+    },
+    {
+      "attempt_num": 2,
+      "latency_s": 92.48400000000038,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 3,
+      "grounded_pass_count": 3,
+      "accepted": true
+    }
+  ]
+}

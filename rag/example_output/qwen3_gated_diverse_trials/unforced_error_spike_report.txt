@@ -1,0 +1,5 @@
+grounding_rate = 3/3 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) 'You made more unforced errors than usual today (0.4769), with a cluster late in the session pointing to fatigue. Rest more between reps and check technique on the specific shot types causing errors.' -- features.unforced_error_rate=0.47693305980215517 confirmed
+  [GROUNDED] (grounded_observation) "Your reaction time (264.77 ms) was slower than usual, especially later in the session. This is a classic fatigue marker—check how long you'd been playing and the session timing before overinterpreting." -- features.avg_reaction_time_ms=264.7665917403021 confirmed
+  [GROUNDED] (grounded_observation) 'You covered less ground than usual (2487.94 m). Before treating this as a fitness issue, check if the session was shorter or points ended quicker—both could explain it without indicating a problem.' -- features.total_distance_covered_m=2487.9425104982665 confirmed

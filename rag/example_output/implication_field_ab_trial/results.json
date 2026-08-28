@@ -1,0 +1,102 @@
+{
+  "second_serve_ace_decline": {
+    "before": {
+      "success": true,
+      "n_attempts": 2,
+      "total_latency_s": 105.21900000000005,
+      "parse_failures_before_accepted": 1,
+      "items": [
+        {
+          "type": "grounded_observation",
+          "text": "Your second-serve points won percentage (9.07) is significantly below average, suggesting the returner may have adapted well to your second serve today. Check if their strategy shifted or if your second-serve placement/depth needs adjustment."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Your ace rate (0.00) is 3.2 standard deviations below average. Consider focusing on serving technique or confidence during drills to improve this critical weapon."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "You made 24.89% unforced errors today, 1.6 standard deviations above average. Check if errors clustered late in the session (fatigue) or occurred on specific shots (technique)."
+        }
+      ]
+    },
+    "after": {
+      "success": true,
+      "n_attempts": 3,
+      "total_latency_s": 151.1880000000001,
+      "parse_failures_before_accepted": 2,
+      "items": [
+        {
+          "type": "grounded_observation",
+          "text": "Your second serve points won percentage was 9.07%, which is significantly below average. This might indicate the returner read your second serve well today.",
+          "implication": "Focus on varying your second serve placement and speed to disrupt the returner's rhythm."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "You hit no aces today (0.00%), which is well below average. This could mean your first serve was less effective or you missed opportunities.",
+          "implication": "Review your first serve strategy and ensure you're targeting high-percentage placements."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Your unforced error rate was 24.89%, higher than usual. If these errors clustered late in the session, fatigue may be the cause.",
+          "implication": "Check for fatigue patterns and ensure proper recovery between points."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Double faults occurred at an 8.26% rate, above average. This suggests inconsistency in your first serve execution.",
+          "implication": "Work on maintaining focus and rhythm during serve routines."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Your average reaction time was 264.77ms, slower than usual. This could indicate fatigue or reduced alertness later in the session.",
+          "implication": "Monitor your play duration and ensure adequate rest between sets."
+        }
+      ]
+    }
+  },
+  "rally_style_shift": {
+    "before": {
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 20.860000000000582,
+      "parse_failures_before_accepted": 0,
+      "items": [
+        {
+          "type": "grounded_observation",
+          "text": "Your winners_rate (31.4%) and unforced_error_rate (24.9%) moved in the same direction today, suggesting a shift toward more aggressive play patterns."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Your avg_rally_length (1.0) was significantly shorter than average, indicating a more defensive session with less time to develop points."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Your unforced_error_rate (24.9%) was notably higher than average, which may indicate fatigue or technique inconsistencies in key shots."
+        }
+      ]
+    },
+    "after": {
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 32.32800000000043,
+      "parse_failures_before_accepted": 0,
+      "items": [
+        {
+          "type": "grounded_observation",
+          "text": "Your winners rate was 31.4% today, which is significantly higher than average.",
+          "implication": "This suggests you were playing more aggressively today, which can be effective but should be balanced with consistency in other areas."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "Your average rally length was 1.0, shorter than usual, indicating a more defensive approach.",
+          "implication": "Shorter rallies may signal fatigue or a tactical shift—check if this was intentional or if rest between points is needed."
+        },
+        {
+          "type": "grounded_observation",
+          "text": "You had a 24.9% unforced error rate, higher than average.",
+          "implication": "Check when these errors occurred—late in the session may indicate fatigue, while clustered errors on specific shots suggest technique adjustments."
+        }
+      ]
+    }
+  }
+}

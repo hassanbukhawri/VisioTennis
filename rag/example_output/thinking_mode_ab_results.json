@@ -1,0 +1,470 @@
+[
+  {
+    "name": "session_record_diverse_clutch_breakdown.json",
+    "lat_on": 65.76599999999962,
+    "lat_off": 30.625,
+    "thinking_chars_on": 3570,
+    "parse_ok_on": true,
+    "grounding_rate_on": 1.0,
+    "suspect_on": true,
+    "items_on": [
+      {
+        "type": "grounded_observation",
+        "text": "Your break-point save rate was 0.00 this session, which is unusually low. While this might indicate a need to focus on net play and positioning during break points, track this metric over your next few sessions to see if it becomes a recurring pattern before making adjustments."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You made unforced errors at a rate of 0.25 this session, which is 1.6 standard deviations above average. Review the timing of these errors\u2014clusters late in the session may suggest fatigue, so consider incorporating more rest between rallies in your practice routine."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your average reaction time was 264.77 ms, which is 1.5 standard deviations above average. This slower-than-usual response time, especially later in the session, may point to fatigue rather than technical issues\u2014monitor your energy levels and consider shorter, more frequent practice blocks."
+      },
+      {
+        "type": "general_note",
+        "text": "Your first-serve percentage (52.21%) suggests room for improvement in serve consistency. Focus on maintaining rhythm and follow-through during serves, especially under pressure scenarios."
+      },
+      {
+        "type": "general_note",
+        "text": "Your second-serve points won percentage (43.93%) is slightly below average. Work on improving the placement and depth of your second serves to increase the likelihood of winning those points."
+      }
+    ],
+    "thinking_chars_off": 0,
+    "parse_ok_off": true,
+    "grounding_rate_off": 1.0,
+    "suspect_off": false,
+    "items_off": [
+      {
+        "type": "grounded_observation",
+        "text": "Your first-serve percentage was 52.21%, which is slightly below average. Focus on improving your first-serve consistency by practicing your serve technique and targeting specific areas of the court."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You made more unforced errors than usual today. Check when they happened -- a cluster late in the session points to fatigue, so rest a bit more between reps; errors on one specific shot point to that shot's technique instead."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your reaction time was slower than usual today, especially later in the session -- that's a classic fatigue marker, not a technical issue. Check how long you'd been playing and what time of day it was before reading too much into it."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your break-point save rate was low this session, but a handful of break points isn't enough to draw real conclusions from. Don't change anything based on this alone -- just watch this number over your next few sessions before treating it as a pattern."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your second-serve points won percentage was 43.93%, which is slightly below average. Work on improving your second-serve placement and consistency to increase your chances of winning points on your second serve."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your average rally length was 3.64, which is slightly below average. Try to extend rallies by improving your shot placement and consistency to increase the number of points you win."
+      }
+    ]
+  },
+  {
+    "name": "session_record_diverse_movement_fatigue.json",
+    "lat_on": 83.8119999999999,
+    "lat_off": 20.5,
+    "thinking_chars_on": 8184,
+    "parse_ok_on": true,
+    "grounding_rate_on": 1.0,
+    "suspect_on": false,
+    "items_on": [
+      {
+        "type": "grounded_observation",
+        "text": "Your reaction time was slower than usual today, especially later in the session -- that's a classic fatigue marker, not a technical issue. Check how long you'd been playing and what time of day it was before reading too much into it."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You moved slower than usual today, but your total distance covered was normal -- that points to less urgency on individual points, not less overall effort. Worth checking your split-step timing on video to see if you're getting a late start on points."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You covered less ground than usual today. Before treating that as a fitness or effort issue, check whether the session was shorter or points were ending quicker than usual -- both would explain it without anything being wrong."
+      },
+      {
+        "type": "general_note",
+        "text": "Your first-serve points won percentage was strong, which suggests you're maintaining effectiveness under pressure. Consider focusing on consistency in second-serve points to further stabilize your scoring."
+      },
+      {
+        "type": "general_note",
+        "text": "Your unforced error rate was slightly elevated, so paying closer attention to shot selection and recovery positioning during rallies could help reduce mistakes in high-pressure moments."
+      }
+    ],
+    "thinking_chars_off": 0,
+    "parse_ok_off": true,
+    "grounding_rate_off": 1.0,
+    "suspect_off": false,
+    "items_off": [
+      {
+        "type": "general_note",
+        "text": "Your reaction time was slower than usual today, especially later in the session -- that's a classic fatigue marker, not a technical issue. Check how long you'd been playing and what time of day it was before reading too much into it."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your movement speed was significantly lower than average, which could indicate a lack of urgency on individual points. Consider reviewing your split-step timing on video to see if you're starting points late."
+      },
+      {
+        "type": "general_note",
+        "text": "You covered less ground than usual today. Before treating that as a fitness or effort issue, check whether the session was shorter or points were ending quicker than usual -- both would explain it without anything being wrong."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your first-serve percentage was slightly below average, which may be influenced by your slower movement speed and reaction time. Focus on maintaining composure and rhythm during serves, even when feeling fatigued."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your unforced error rate was higher than average, which may be linked to slower movement and reaction time. Work on maintaining focus and minimizing errors during longer rallies."
+      }
+    ]
+  },
+  {
+    "name": "session_record_diverse_rally_style_shift.json",
+    "lat_on": 63.34400000000096,
+    "lat_off": 32.46899999999914,
+    "thinking_chars_on": 6563,
+    "parse_ok_on": true,
+    "grounding_rate_on": 1.0,
+    "suspect_on": false,
+    "items_on": [
+      {
+        "type": "grounded_observation",
+        "text": "Your winners rate was higher than usual today, which might indicate a more aggressive playing style. Check if this came at the cost of increased unforced errors, as both metrics moved in the same direction."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your average rally length was shorter than usual, suggesting a more aggressive approach. This could be effective, but ensure that the increased winners aren't leading to more unforced errors during high-pressure moments."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You made more unforced errors than usual today. Check if they clustered towards the end of the session, which might indicate fatigue, or if they occurred on a specific shot that needs technical adjustment."
+      }
+    ],
+    "thinking_chars_off": 0,
+    "parse_ok_off": true,
+    "grounding_rate_off": 1.0,
+    "suspect_off": false,
+    "items_off": [
+      {
+        "type": "grounded_observation",
+        "text": "Your winners rate was 0.31, which is 6.0 standard deviations above average. This suggests you were playing more aggressively than usual, which is great for generating points but be mindful of balancing this with control to avoid unnecessary unforced errors."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your average rally length was 1.0, which is 3.8 standard deviations below average. This indicates a more passive and defensive style of play, which can be effective in certain situations but may limit your ability to dominate points. Consider incorporating more aggressive strategies when appropriate."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your unforced error rate was 0.25, which is 1.6 standard deviations above average. This suggests you made more unforced errors than usual. Check when these errors occurred\u2014clustering late in the session may indicate fatigue, so consider incorporating more rest between points or reps."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your first serve percentage was 52.21, which is slightly below average. This may indicate some inconsistency in your first serve placement or execution. Focus on improving your first serve accuracy to increase your chances of winning points early in rallies."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your double fault rate was 0.08, which is slightly above average. This suggests you may be struggling with consistency in your second serve. Work on improving your second serve placement and execution to reduce unforced errors and increase your chances of winning points."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your court coverage speed was 2.55 mps, which is slightly above average. This indicates you are covering the court effectively. Continue to maintain this level of movement to ensure you are always in position to respond to your opponent's shots."
+      }
+    ]
+  },
+  {
+    "name": "session_record_diverse_second_serve_ace_decline.json",
+    "lat_on": 120.98499999999876,
+    "lat_off": 33.98400000000038,
+    "thinking_chars_on": 13233,
+    "parse_ok_on": true,
+    "grounding_rate_on": 0.0,
+    "suspect_on": false,
+    "items_on": [
+      {
+        "type": "grounded_observation",
+        "text": "Your second serve is performing significantly below average, with only 9.07% of points won. This suggests a technical issue with your second serve technique or strategy\u2014consider reviewing your serve placement and follow-through."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You're not generating any aces (0.00% of serves are aces), which is 3.2 standard deviations below average. This could indicate a lack of power or precision in your serve\u2014review your serve mechanics and consider working with a coach."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your unforced error rate is 24.89%, which is 1.6 standard deviations above average. This suggests you may be rushing or overcommitting during points\u2014focus on maintaining composure and improving your shot selection."
+      }
+    ],
+    "thinking_chars_off": 0,
+    "parse_ok_off": true,
+    "grounding_rate_off": 1.0,
+    "suspect_off": false,
+    "items_off": [
+      {
+        "type": "grounded_observation",
+        "text": "Your second serve points won percentage was 9.07, which is significantly below average. This suggests that your second serve may not be effective enough in this session, so consider working on improving your second serve placement and power during practice."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your ace rate was 0.00, which is below average. This could indicate that your first serve is not being delivered with enough pace or accuracy to generate aces. Focus on improving your first serve technique and consistency."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your unforced error rate was 0.25, which is above average. This suggests that you made more unforced errors than usual. Check when these errors occurred \u2014 if they were clustered in a specific part of the session, it might be due to fatigue or a specific shot that needs refinement."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your double fault rate was 0.08, which is slightly above average. This indicates that you may be struggling with consistency on your first serve. Work on improving your first serve technique and reducing unnecessary tension during service delivery."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your average rally length was 3.64, which is slightly below average. This suggests that you may be losing points quickly after the initial rally. Focus on improving your consistency and shot placement to extend rallies and create more opportunities to win points."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your court coverage speed was 2.55 mps, which is slightly below average. This suggests that you may be moving slightly slower than usual on the court. Consider incorporating more footwork drills into your practice to improve your speed and agility."
+      }
+    ]
+  },
+  {
+    "name": "session_record_diverse_serve_breakdown.json",
+    "lat_on": 58.0619999999999,
+    "lat_off": 32.375,
+    "thinking_chars_on": 4448,
+    "parse_ok_on": true,
+    "grounding_rate_on": 1.0,
+    "suspect_on": false,
+    "items_on": [
+      {
+        "type": "grounded_observation",
+        "text": "Your first-serve percentage and points won are both significantly below average, which suggests your first serve may not be generating enough pace or depth to control points. Focus on hitting more consistent first serves to reduce pressure on your second serve."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your double-fault rate is extremely high, which combined with your low first-serve percentage suggests you may be overcompensating on second serves under pressure. Check if these double faults clustered during critical moments like break points."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your second-serve points won are above average, which is a positive sign. This suggests your second serve is effective when you do get it in play, so focus on improving first-serve consistency to leverage this strength."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your unforced error rate is slightly elevated, which may indicate occasional lapses in shot selection or court positioning. Work on maintaining focus during long rallies to reduce these errors."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You covered an unusually high total distance during the session, which may reflect aggressive movement patterns. Ensure this energy is directed toward strategic positioning rather than excessive running."
+      }
+    ],
+    "thinking_chars_off": 0,
+    "parse_ok_off": true,
+    "grounding_rate_off": 1.0,
+    "suspect_off": false,
+    "items_off": [
+      {
+        "type": "grounded_observation",
+        "text": "Your first-serve percentage is significantly lower than average, which may indicate that you're struggling to get your first serve in play consistently. This could be due to pressure or technical issues, so consider reviewing your serve mechanics and practicing under pressure scenarios."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You're winning fewer points behind your first serve than usual, which might suggest that the returner is reading your serve well today. However, it's worth checking whether this is a consistent issue or an isolated dip in performance."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your second-serve points won percentage is above average, which is a positive sign. This suggests that even when your first serve isn't landing, you're still able to win points on your second serve. Focus on maintaining this consistency."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You double-faulted more than usual today, which may indicate that you're pushing too hard on your second serve under pressure. Consider whether these double faults occurred during critical points, such as break points or late in games."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your unforced error rate is slightly above average, which suggests that you may be making more errors than usual during rallies. This could be due to fatigue or a lack of focus, so consider incorporating more mental toughness drills into your practice."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your average rally length is slightly below average, which may indicate that you're ending points quickly. This could be a result of your opponent's strong returns or your own aggressive play style. Consider working on extending rallies to gain more control over the point."
+      }
+    ]
+  },
+  {
+    "name": "session_record_diverse_unforced_error_spike.json",
+    "lat_on": 37.625,
+    "lat_off": 30.57799999999952,
+    "thinking_chars_on": 1386,
+    "parse_ok_on": true,
+    "grounding_rate_on": 1.0,
+    "suspect_on": false,
+    "items_on": [
+      {
+        "type": "grounded_observation",
+        "text": "Your unforced error rate was 0.48, which is 6.0 standard deviations above average. This spike suggests checking for fatigue or technique issues on specific shots during the session."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your average reaction time was 264.77 ms, 1.5 standard deviations above average. This suggests fatigue may have impacted your responsiveness later in the session."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You covered 2487.94 meters, 1.5 standard deviations below average. This could indicate shorter rallies or a condensed session duration rather than reduced effort."
+      },
+      {
+        "type": "general_note",
+        "text": "Consider monitoring fatigue levels during practice, as both unforced errors and reaction time suggest potential impact from physical tiredness."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your first-serve percentage (52.21%) and break-point save rate (41.34%) indicate opportunities to improve consistency under pressure."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your second-serve points won (43.93%) show room for improvement, particularly given your relatively high unforced error rate."
+      }
+    ],
+    "thinking_chars_off": 0,
+    "parse_ok_off": true,
+    "grounding_rate_off": 1.0,
+    "suspect_off": false,
+    "items_off": [
+      {
+        "type": "grounded_observation",
+        "text": "You made more unforced errors than usual today. Check when they happened -- a cluster late in the session points to fatigue, so rest a bit more between reps; errors on one specific shot point to that shot's technique instead."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your reaction time was slower than usual today, especially later in the session -- that's a classic fatigue marker, not a technical issue. Check how long you'd been playing and what time of day it was before reading too much into it."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You covered less ground than usual today. Before treating that as a fitness or effort issue, check whether the session was shorter or points were ending quicker than usual -- both would explain it without anything being wrong."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your first serve percentage was slightly below average, which could be due to a variety of factors. Consider focusing on your serve technique and consistency during practice."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your second serve points won percentage was slightly below average. This could be an area to work on, especially in high-pressure situations."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your break points saved percentage was slightly below average. This suggests that you may need to work on your ability to save break points during matches."
+      }
+    ]
+  },
+  {
+    "name": "stroke_event_biomech_forehand.json",
+    "lat_on": 45.375,
+    "lat_off": 29.67200000000048,
+    "thinking_chars_on": 3269,
+    "parse_ok_on": true,
+    "grounding_rate_on": 1.0,
+    "suspect_on": false,
+    "items_on": [
+      {
+        "type": "grounded_observation",
+        "text": "Your elbow bend is unusually low for a forehand stroke, which may indicate a restricted range of motion. Consider consulting a coach to assess whether this affects your shot consistency."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your left knee is extremely bent at contact, which is common for forehand strokes but worth verifying with a coach to ensure it doesn't compromise stability."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your follow-through extension is on the higher end of the spectrum, which may suggest a very extended follow-through. Check with a coach to see if this aligns with your technique goals."
+      },
+      {
+        "type": "general_note",
+        "text": "Your shoulder-hip separation is minimal, which is typical for forehand strokes but may limit rotational power. A coach can help determine if adjustments are needed."
+      },
+      {
+        "type": "general_note",
+        "text": "Your weight transfer is relatively low, which might indicate incomplete body engagement during the stroke. Consider practicing weight shifting drills with a coach."
+      }
+    ],
+    "thinking_chars_off": 0,
+    "parse_ok_off": true,
+    "grounding_rate_off": 1.0,
+    "suspect_off": false,
+    "items_off": [
+      {
+        "type": "grounded_observation",
+        "text": "Your elbow angle is unusually low, which may suggest a very bent arm at contact. This is on the lower end of what's typical for a forehand stroke, so consider reviewing your technique with a coach to ensure it's not causing strain or limiting power."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your left knee is very bent at contact, which is on the higher end of what's typical for a forehand stroke. This could indicate a more flexed position than most players use, so consider checking with a coach to see if this is affecting your balance or power."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your follow-through extension is unusually long, which is on the higher end of what's typical for a forehand stroke. This could suggest a very extended arm during the follow-through, so consider checking with a coach to ensure it's not causing strain or affecting your form."
+      },
+      {
+        "type": "general_note",
+        "text": "Your stance width is slightly narrower than average, which may suggest a more compact stance at contact. This is a common variation, but consider checking with a coach to ensure it's not affecting your balance or stability during the shot."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer is on the lower end of what's typical for a forehand stroke, which may suggest less movement of your body weight during the shot. This could affect your power and balance, so consider reviewing your technique with a coach."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your shoulder rotation is on the higher end of what's typical for a forehand stroke, which may suggest a more open shoulder position at contact. This could affect your power and accuracy, so consider checking with a coach to ensure it's not causing any issues."
+      }
+    ]
+  },
+  {
+    "name": "stroke_event_biomech_backhand.json",
+    "lat_on": 37.46800000000076,
+    "lat_off": 20.67199999999866,
+    "thinking_chars_on": 2363,
+    "parse_ok_on": true,
+    "grounding_rate_on": 1.0,
+    "suspect_on": false,
+    "items_on": [
+      {
+        "type": "grounded_observation",
+        "text": "Your right knee is extremely bent at contact (higher than 98.8% of backhand clips in our dataset), which is typical for this shot type. This doesn't indicate a problem on its own, but you might want to confirm with a coach if this feels natural for your swing timing."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your left knee is also highly bent at contact (87.6th percentile for backhand clips), which aligns with the typical leg posture seen in this stroke type. No adjustment is needed here unless you're experiencing discomfort."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height ratio is on the lower end (14.5th percentile for backhand clips), suggesting a flatter contact point than most players. If this feels intentional and doesn't cause inconsistency, no change is needed."
+      },
+      {
+        "type": "general_note",
+        "text": "Your elbow bend is within a normal range for this shot type. This measurement alone doesn't indicate a technical issue, but you might want to review video with a coach to confirm your form feels consistent."
+      }
+    ],
+    "thinking_chars_off": 0,
+    "parse_ok_off": true,
+    "grounding_rate_off": 1.0,
+    "suspect_off": false,
+    "items_off": [
+      {
+        "type": "grounded_observation",
+        "text": "Your right knee is extremely bent at contact, which is on the higher end for backhand strokes. This is typical for this shot type, so there's no need to adjust unless you feel it's affecting your balance or power."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your left knee is also quite bent at contact, but it's not as extreme as your right knee. This is still within a typical range for backhand strokes, so no immediate changes are needed."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height is lower than usual for this shot, which could indicate a flatter swing style or a later contact point. If it doesn't feel like a problem to you, there's no need to change it."
+      },
+      {
+        "type": "general_note",
+        "text": "Your shoulder rotation is very high, which is typical for a backhand stroke. This suggests good engagement of your upper body during the shot."
+      },
+      {
+        "type": "general_note",
+        "text": "Your hip rotation is also quite high, which is normal for a backhand stroke. This indicates good lower-body involvement in your swing."
+      },
+      {
+        "type": "general_note",
+        "text": "Your stance width is slightly wider than average, which could help with stability during the shot. This is a common adjustment for players looking to generate more power."
+      }
+    ]
+  }
+]

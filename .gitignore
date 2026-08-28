@@ -1,0 +1,89 @@
+# === Datasets & downloaded third-party data (huge, reproducible via download
+# scripts, never meant to be tracked) ===
+data/
+
+# Match Charting Project raw CSVs -- large (~130MB), third-party, and
+# reproducibly re-downloadable. See training/momentum_tracking/data/raw/README.md
+# for the exact source and re-download steps. (Kept explicit even though data/
+# above is now also ignored, in case this path ever moves outside data/.)
+training/momentum_tracking/data/raw/*.csv
+
+# === Model checkpoints & training artifacts (large, reproducible by
+# retraining/exporting -- see each training/*/README or script for how) ===
+# Raw PyTorch checkpoints -- never needed to run the app, only to retrain.
+*.pt
+*.pth
+# ONNX exports -- excluded by default (most are intermediate/unused-by-the-
+# app training artifacts), EXCEPT the one the backend actually loads at
+# runtime (backend/app.py STROKE_GRU_ONNX_PATH), un-ignored explicitly below
+# so the app is runnable out of the box. See PROJECT_LOG.md "publish to
+# GitHub" audit, 2026-08-28.
+*.onnx
+!training/stroke_classification/checkpoints/augmented/stroke_gru_augmented.onnx
+# Pretrained weights downloaded at repo root during YOLO experimentation.
+/yolo11n.pt
+/yolov8n-seg.pt
+
+# === Local databases, credentials, real user data ===
+backend/app.db
+backend/*.db
+backend/*.sqlite*
+*.env
+.env.*
+!.env.example
+!**/.env.example
+
+# === Logs (all of them -- this project has accumulated many ad hoc *.log
+# files at the repo root and under backend/ across sessions) ===
+*.log
+*.log.err
+backend/logs/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+**/visio_env/
+
+# === Node / Expo / Metro ===
+node_modules/
+.expo/
+mobile/.expo/
+
+# === OS/editor cruft ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Claude Code local session/tooling state (machine- and process-specific,
+# not project source) ===
+.claude/
+
+# === Session debug artifacts (screenshots, uiautomator XML dumps, ad hoc
+# JSON captures from live device-testing sessions -- not source, not meant to
+# be tracked; see PROJECT_LOG.md "publish to GitHub" audit, 2026-08-28).
+# Scoped to specific known dump locations (leading slash / explicit path)
+# rather than blanket *.png / *.xml, so real documented outputs elsewhere
+# (ir/example_output/, mvp/real_footage_test/, training/*/runs/*) are
+# unaffected. Found TWICE during this audit in two different places
+# (repo root, then mobile/) -- scoped defensively to every directory known
+# to have been used as an adb/screenshot working directory.
+/*.png
+/*.xml
+/*.json
+/bundle_check.js
+/cloudflared.log
+/mobile/*.png
+/mobile/*.xml
+/mobile/.emulator_shots/
+/backend/*.png
+/backend/*.xml
+
+# Backend startup-script log output (start_visiotennis.ps1 writes here).
+/backend_startup.log
+/backend_startup.log.err

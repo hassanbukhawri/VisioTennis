@@ -1,0 +1,80 @@
+{
+  "stroke_class": "volley",
+  "predicted_class": "volley",
+  "notable_features": [
+    {
+      "feature": "wrist_height_ratio",
+      "value": -0.36555813008280413,
+      "stroke_class": "volley",
+      "percentile": 5.6,
+      "n": 301,
+      "low_confidence": false,
+      "tail": true
+    },
+    {
+      "feature": "weight_transfer_ratio",
+      "value": 0.32560314262254,
+      "stroke_class": "volley",
+      "percentile": 88.4,
+      "n": 301,
+      "low_confidence": false,
+      "tail": false
+    },
+    {
+      "feature": "knee_flex_left_deg",
+      "value": 169.54791750833527,
+      "stroke_class": "volley",
+      "percentile": 72.8,
+      "n": 301,
+      "low_confidence": false,
+      "tail": false
+    }
+  ],
+  "success": true,
+  "n_attempts": 1,
+  "total_latency_s": 51.28200000000015,
+  "failure_reason": "",
+  "generated_items": [
+    {
+      "type": "grounded_observation",
+      "text": "Your contact point is unusually low for this shot, sitting at the 5.6th percentile. This could indicate you're taking the ball later than typical, but it might also align with your natural, flatter swing style. If it feels consistent and effective, there's no immediate adjustment needed.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "9d0a05dd-0687-45f6-9d88-5a682c77bc6f",
+        "ir_field_path": "biomechanics_percentile.wrist_height_ratio",
+        "cited_value": 5.6
+      }
+    },
+    {
+      "type": "grounded_observation",
+      "text": "Your weight transfer into the shot is on the higher end, at the 88.4th percentile. If this feels light or unbalanced, try emphasizing driving off your back foot during the swing to ensure your weight is moving forward at contact.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "9d0a05dd-0687-45f6-9d88-5a682c77bc6f",
+        "ir_field_path": "biomechanics_percentile.weight_transfer_ratio",
+        "cited_value": 88.4
+      }
+    },
+    {
+      "type": "grounded_observation",
+      "text": "Your left knee flex at contact is typical for this shot type, sitting at the 72.8th percentile. Most players have similar knee positions at impact, so this measurement alone doesn't suggest any specific adjustments.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "9d0a05dd-0687-45f6-9d88-5a682c77bc6f",
+        "ir_field_path": "biomechanics_percentile.knee_flex_left_deg",
+        "cited_value": 72.8
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "attempt_num": 1,
+      "latency_s": 51.28200000000015,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 3,
+      "grounded_pass_count": 3,
+      "accepted": true
+    }
+  ]
+}

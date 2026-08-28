@@ -1,0 +1,18 @@
+{
+  "trial": 3,
+  "success": true,
+  "n_attempts": 1,
+  "total_latency_s": 31.32899999999995,
+  "failure_reason": "",
+  "attempts": [
+    {
+      "attempt_num": 1,
+      "latency_s": 31.32899999999995,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 3,
+      "grounded_pass_count": 3,
+      "accepted": true
+    }
+  ]
+}

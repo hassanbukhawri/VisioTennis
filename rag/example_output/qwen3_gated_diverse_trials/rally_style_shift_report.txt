@@ -1,0 +1,5 @@
+grounding_rate = 3/3 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) 'Your winners rate (0.314) and unforced error rate (0.249) both increased today, suggesting a shift toward more aggressive play. Focus on maintaining consistency while chasing points.' -- features.winners_rate=0.31426108554081855 confirmed
+  [GROUNDED] (grounded_observation) "Your average rally length (1.00) was shorter than usual, indicating a more defensive approach. This could be strategic, but consider balancing it with proactive points if you're facing a strong opponent." -- features.avg_rally_length=1.0 confirmed
+  [GROUNDED] (grounded_observation) 'Your unforced error rate (0.249) was 1.6 standard deviations above average. Check if errors clustered late in the session (fatigue) or occurred on specific shots (technique adjustment needed).' -- features.unforced_error_rate=0.2489394921634392 confirmed

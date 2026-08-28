@@ -1,0 +1,213 @@
+{
+  "clip_name": "clip2_teen_practice.mp4",
+  "n_frames": 631,
+  "fps": 25.0,
+  "duration_s": 25.24,
+  "n_pose_detected": 619,
+  "pose_detection_rate": 0.9809825673534073,
+  "dominant_wrist": "left",
+  "n_candidates_filter_off": 10,
+  "candidates_filter_off": [
+    {
+      "contact_frame": 34,
+      "window_start": 4,
+      "window_end": 64,
+      "speed": 0.08175977319478989,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 142,
+      "window_start": 112,
+      "window_end": 172,
+      "speed": 0.13949549198150635,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 213,
+      "window_start": 183,
+      "window_end": 243,
+      "speed": 0.04418604448437691,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 259,
+      "window_start": 229,
+      "window_end": 289,
+      "speed": 0.26269444823265076,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 340,
+      "window_start": 310,
+      "window_end": 370,
+      "speed": 0.1070934608578682,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 385,
+      "window_start": 355,
+      "window_end": 415,
+      "speed": 0.05380687117576599,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 439,
+      "window_start": 409,
+      "window_end": 469,
+      "speed": 0.13883621990680695,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 493,
+      "window_start": 463,
+      "window_end": 523,
+      "speed": 0.029080117121338844,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 574,
+      "window_start": 544,
+      "window_end": 604,
+      "speed": 0.13929560780525208,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 619,
+      "window_start": 571,
+      "window_end": 631,
+      "speed": 0.061763521283864975,
+      "window_valid_fraction": 0.8,
+      "trunk_rotation_peak": null,
+      "timestamp_s": 24.76
+    }
+  ],
+  "n_candidates_filter_on": 9,
+  "candidates_filter_on": [
+    {
+      "contact_frame": 34,
+      "window_start": 4,
+      "window_end": 64,
+      "speed": 0.08175977319478989,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 14.933883666992188,
+      "predicted_class": "backhand",
+      "confidence": 0.9998157620429993,
+      "timestamp_s": 1.36
+    },
+    {
+      "contact_frame": 142,
+      "window_start": 112,
+      "window_end": 172,
+      "speed": 0.13949549198150635,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 18.74468994140625,
+      "predicted_class": "backhand",
+      "confidence": 0.9892674088478088,
+      "timestamp_s": 5.68
+    },
+    {
+      "contact_frame": 213,
+      "window_start": 183,
+      "window_end": 243,
+      "speed": 0.04418604448437691,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 11.8460693359375,
+      "predicted_class": "volley",
+      "confidence": 0.9895972609519958,
+      "timestamp_s": 8.52
+    },
+    {
+      "contact_frame": 259,
+      "window_start": 229,
+      "window_end": 289,
+      "speed": 0.26269444823265076,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 21.06842041015625,
+      "predicted_class": "backhand",
+      "confidence": 0.9991753697395325,
+      "timestamp_s": 10.36
+    },
+    {
+      "contact_frame": 340,
+      "window_start": 310,
+      "window_end": 370,
+      "speed": 0.1070934608578682,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 11.85791015625,
+      "predicted_class": "backhand",
+      "confidence": 0.8300520181655884,
+      "timestamp_s": 13.6
+    },
+    {
+      "contact_frame": 385,
+      "window_start": 355,
+      "window_end": 415,
+      "speed": 0.05380687117576599,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 10.725143432617188,
+      "predicted_class": "backhand",
+      "confidence": 0.9848265647888184,
+      "timestamp_s": 15.4
+    },
+    {
+      "contact_frame": 439,
+      "window_start": 409,
+      "window_end": 469,
+      "speed": 0.13883621990680695,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 25.253387451171875,
+      "predicted_class": "backhand",
+      "confidence": 0.9796916842460632,
+      "timestamp_s": 17.56
+    },
+    {
+      "contact_frame": 493,
+      "window_start": 463,
+      "window_end": 523,
+      "speed": 0.029080117121338844,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 7.691131591796875,
+      "predicted_class": "forehand",
+      "confidence": 0.9906454086303711,
+      "timestamp_s": 19.72
+    },
+    {
+      "contact_frame": 574,
+      "window_start": 544,
+      "window_end": 604,
+      "speed": 0.13929560780525208,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 11.685623168945312,
+      "predicted_class": "backhand",
+      "confidence": 0.9883813261985779,
+      "timestamp_s": 22.96
+    }
+  ],
+  "rejected_by_rotation": [
+    {
+      "contact_frame": 619,
+      "window_start": 571,
+      "window_end": 631,
+      "speed": 0.061763521283864975,
+      "window_valid_fraction": 0.8,
+      "trunk_rotation_peak": null,
+      "timestamp_s": 24.76
+    }
+  ],
+  "plot_path": "D:\\VisioTennis-app\\ir\\example_output\\stroke_segmentation_trial\\clip2_teen_practice\\speed_plot.png",
+  "contact_sheet_paths": [
+    "D:\\VisioTennis-app\\ir\\example_output\\stroke_segmentation_trial\\clip2_teen_practice\\contact_sheet_0_frames0-200.png",
+    "D:\\VisioTennis-app\\ir\\example_output\\stroke_segmentation_trial\\clip2_teen_practice\\contact_sheet_1_frames200-400.png",
+    "D:\\VisioTennis-app\\ir\\example_output\\stroke_segmentation_trial\\clip2_teen_practice\\contact_sheet_2_frames400-600.png",
+    "D:\\VisioTennis-app\\ir\\example_output\\stroke_segmentation_trial\\clip2_teen_practice\\contact_sheet_3_frames600-631.png"
+  ]
+}

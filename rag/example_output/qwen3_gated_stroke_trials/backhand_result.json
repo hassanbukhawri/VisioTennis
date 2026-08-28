@@ -1,0 +1,80 @@
+{
+  "stroke_class": "backhand",
+  "predicted_class": "backhand",
+  "notable_features": [
+    {
+      "feature": "knee_flex_right_deg",
+      "value": 179.74065631508037,
+      "stroke_class": "backhand",
+      "percentile": 98.8,
+      "n": 427,
+      "low_confidence": false,
+      "tail": true
+    },
+    {
+      "feature": "knee_flex_left_deg",
+      "value": 177.45885430660877,
+      "stroke_class": "backhand",
+      "percentile": 87.6,
+      "n": 427,
+      "low_confidence": false,
+      "tail": false
+    },
+    {
+      "feature": "wrist_height_ratio",
+      "value": 0.1474717626610977,
+      "stroke_class": "backhand",
+      "percentile": 14.5,
+      "n": 427,
+      "low_confidence": false,
+      "tail": false
+    }
+  ],
+  "success": true,
+  "n_attempts": 1,
+  "total_latency_s": 69.875,
+  "failure_reason": "",
+  "generated_items": [
+    {
+      "type": "grounded_observation",
+      "text": "Your right knee is unusually bent at contact, with a flexion angle that ranks among the highest in our dataset. This could indicate a late follow-through or a specific weight transfer pattern \u2014 consider checking if your lower body is fully engaged during the stroke.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "6bc75eb4-1ac6-4b4d-aa75-16ba557768b6",
+        "ir_field_path": "biomechanics_percentile.knee_flex_right_deg",
+        "cited_value": 98.8
+      }
+    },
+    {
+      "type": "grounded_observation",
+      "text": "Your left knee flexion is on the higher end for this shot type, suggesting a more pronounced bend than typical. While this isn't inherently problematic, it may reflect a unique stance or weight distribution \u2014 ensure your balance remains stable throughout the motion.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "6bc75eb4-1ac6-4b4d-aa75-16ba557768b6",
+        "ir_field_path": "biomechanics_percentile.knee_flex_left_deg",
+        "cited_value": 87.6
+      }
+    },
+    {
+      "type": "grounded_observation",
+      "text": "Your contact point is unusually low for this shot, with a wrist height ratio that places you in the lower percentile range. This could mean you're taking the ball later than average or using a flatter swing plane \u2014 test if this aligns with your natural rhythm.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "6bc75eb4-1ac6-4b4d-aa75-16ba557768b6",
+        "ir_field_path": "biomechanics_percentile.wrist_height_ratio",
+        "cited_value": 14.5
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "attempt_num": 1,
+      "latency_s": 69.875,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 3,
+      "grounded_pass_count": 3,
+      "accepted": true
+    }
+  ]
+}

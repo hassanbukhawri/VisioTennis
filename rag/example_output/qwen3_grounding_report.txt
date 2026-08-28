@@ -1,0 +1,11 @@
+latency_s=72.81
+vram_used_mb_before=6560 vram_used_mb_after=6657 vram_total_mb=12288
+
+grounding_rate = 0/6 grounded_observation items pass (0.0%)
+
+  [WRONG_RECORD] (grounded_observation) "The player's double fault rate is 0.1593 (15.93%), which is higher than the average for this player." -- no known SessionRecord with id=636547890123456789 among the records provided
+  [WRONG_RECORD] (grounded_observation) "The player's unforced error rate is 0.2857 (28.57%), which is higher than the average for this player." -- no known SessionRecord with id=636547890123456789 among the records provided
+  [WRONG_RECORD] (grounded_observation) "The player's first serve points won percentage is 0.6286 (62.86%), which is lower than the average for this player." -- no known SessionRecord with id=636547890123456789 among the records provided
+  [WRONG_RECORD] (grounded_observation) "The player's first serve percentage is 0.6571 (65.71%), which is within the average range for this player." -- no known SessionRecord with id=636547890123456789 among the records provided
+  [WRONG_RECORD] (grounded_observation) "The player's net approach percentage is 0.4286 (42.86%), which is within the average range for this player." -- no known SessionRecord with id=636547890123456789 among the records provided
+  [WRONG_RECORD] (grounded_observation) "The player's backhand slice percentage is 0.2857 (28.57%), which is within the average range for this player." -- no known SessionRecord with id=636547890123456789 among the records provided

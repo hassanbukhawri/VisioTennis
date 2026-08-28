@@ -1,0 +1,5 @@
+grounding_rate = 3/3 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) "Your elbow angle is unusually low, which may indicate a more closed wrist position at contact. Consider checking with a coach to ensure this isn't affecting your racquet face alignment." -- biomechanics.elbow_angle_deg=17.50587060123927 confirmed at 2.5th percentile for forehand (n=407)
+  [GROUNDED] (grounded_observation) "Your left knee flex is on the higher end for this stroke, suggesting a more bent leg position at contact. While this isn't inherently problematic, ensure it's not limiting your weight transfer efficiency." -- biomechanics.knee_flex_left_deg=178.73492099346177 confirmed at 95.8th percentile for forehand (n=407)
+  [GROUNDED] (grounded_observation) "Your follow-through extension is among the longest observed, which could indicate maximal power generation. Ensure this isn't causing imbalance in your stroke timing." -- biomechanics.follow_through_extension_ratio=2.6675081152429128 confirmed at 92.1th percentile for forehand (n=407)

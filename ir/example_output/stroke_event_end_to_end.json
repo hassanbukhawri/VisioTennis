@@ -1,0 +1,974 @@
+{
+  "schema_version": "0.2.0",
+  "event_id": "64ed1130-ee20-4640-8f1b-67e934d54693",
+  "created_at": "2026-07-17T16:12:39.511828Z",
+  "match_id": null,
+  "point_id": null,
+  "player_id": "federer_e2e_demo",
+  "player_side": "near",
+  "source_video": "game1/Clip5 frames[29:89] (TRUE END-TO-END: ball, court, and stroke all from this ONE real clip -- contrast with ir/example_output/stroke_event_*.json, which are composites)",
+  "frame_range": {
+    "start_frame": 0,
+    "end_frame": 59,
+    "fps": 30.0
+  },
+  "ball": {
+    "trajectory": [
+      {
+        "frame": 0,
+        "pixel": {
+          "x_px": 650.0,
+          "y_px": 237.5
+        },
+        "court": {
+          "x_m": 5.651529265628333,
+          "y_m": 6.893082109266999
+        },
+        "visible": true,
+        "confidence": 0.9560053944587708,
+        "event_type": "flight"
+      },
+      {
+        "frame": 1,
+        "pixel": {
+          "x_px": 655.0,
+          "y_px": 237.5
+        },
+        "court": {
+          "x_m": 5.756986739484563,
+          "y_m": 6.891361426622256
+        },
+        "visible": true,
+        "confidence": 0.9546666145324707,
+        "event_type": "flight"
+      },
+      {
+        "frame": 2,
+        "pixel": {
+          "x_px": 732.5,
+          "y_px": 112.5
+        },
+        "court": {
+          "x_m": 8.156045151569659,
+          "y_m": -10.106676650166944
+        },
+        "visible": true,
+        "confidence": 0.9618606567382812,
+        "event_type": "bounce"
+      },
+      {
+        "frame": 3,
+        "pixel": {
+          "x_px": 662.5,
+          "y_px": 220.0
+        },
+        "court": {
+          "x_m": 5.930660308226118,
+          "y_m": 5.139930259944236
+        },
+        "visible": true,
+        "confidence": 0.9491410255432129,
+        "event_type": "flight"
+      },
+      {
+        "frame": 4,
+        "pixel": {
+          "x_px": 665.0,
+          "y_px": 197.5
+        },
+        "court": {
+          "x_m": 6.010795324576061,
+          "y_m": 2.6578202643703652
+        },
+        "visible": true,
+        "confidence": 0.9347365498542786,
+        "event_type": "flight"
+      },
+      {
+        "frame": 5,
+        "pixel": {
+          "x_px": 665.0,
+          "y_px": 180.0
+        },
+        "court": {
+          "x_m": 6.032463054559506,
+          "y_m": 0.519032204747761
+        },
+        "visible": true,
+        "confidence": 0.9429550170898438,
+        "event_type": "flight"
+      },
+      {
+        "frame": 6,
+        "pixel": {
+          "x_px": 667.5,
+          "y_px": 165.0
+        },
+        "court": {
+          "x_m": 6.116281455696073,
+          "y_m": -1.4837096591153591
+        },
+        "visible": true,
+        "confidence": 0.95789635181427,
+        "event_type": "flight"
+      },
+      {
+        "frame": 7,
+        "pixel": {
+          "x_px": 667.5,
+          "y_px": 152.5
+        },
+        "court": {
+          "x_m": 6.136861602519943,
+          "y_m": -3.285828860461558
+        },
+        "visible": true,
+        "confidence": 0.9528626203536987,
+        "event_type": "flight"
+      },
+      {
+        "frame": 8,
+        "pixel": {
+          "x_px": 667.5,
+          "y_px": 140.0
+        },
+        "court": {
+          "x_m": 6.159004049843322,
+          "y_m": -5.224752320423294
+        },
+        "visible": true,
+        "confidence": 0.966093122959137,
+        "event_type": "flight"
+      },
+      {
+        "frame": 9,
+        "pixel": {
+          "x_px": 667.5,
+          "y_px": 132.5
+        },
+        "court": {
+          "x_m": 6.173115152869179,
+          "y_m": -6.460403840925202
+        },
+        "visible": true,
+        "confidence": 0.9581207633018494,
+        "event_type": "flight"
+      },
+      {
+        "frame": 10,
+        "pixel": {
+          "x_px": 667.5,
+          "y_px": 122.5
+        },
+        "court": {
+          "x_m": 6.192985868735192,
+          "y_m": -8.200401077733206
+        },
+        "visible": true,
+        "confidence": 0.9547057747840881,
+        "event_type": "hit"
+      },
+      {
+        "frame": 11,
+        "pixel": {
+          "x_px": 667.5,
+          "y_px": 115.0
+        },
+        "court": {
+          "x_m": 6.208745896227463,
+          "y_m": -9.580442162990664
+        },
+        "visible": true,
+        "confidence": 0.9294853210449219,
+        "event_type": "hit"
+      },
+      {
+        "frame": 12,
+        "pixel": {
+          "x_px": 667.5,
+          "y_px": 102.5
+        },
+        "court": {
+          "x_m": 6.236812781196322,
+          "y_m": -12.038144372660563
+        },
+        "visible": true,
+        "confidence": 0.8312374353408813,
+        "event_type": "flight"
+      },
+      {
+        "frame": 13,
+        "pixel": {
+          "x_px": 672.5,
+          "y_px": 85.0
+        },
+        "court": {
+          "x_m": 6.444587773579056,
+          "y_m": -15.86007870340495
+        },
+        "visible": true,
+        "confidence": 0.8769364953041077,
+        "event_type": "flight"
+      },
+      {
+        "frame": 14,
+        "pixel": {
+          "x_px": 687.5,
+          "y_px": 80.0
+        },
+        "court": {
+          "x_m": 6.963031115575526,
+          "y_m": -17.057216574177684
+        },
+        "visible": true,
+        "confidence": 0.8915867209434509,
+        "event_type": "flight"
+      },
+      {
+        "frame": 15,
+        "pixel": {
+          "x_px": 670.0,
+          "y_px": 122.5
+        },
+        "court": {
+          "x_m": 6.265197982663538,
+          "y_m": -8.202218287303197
+        },
+        "visible": true,
+        "confidence": 0.9401676058769226,
+        "event_type": "flight"
+      },
+      {
+        "frame": 16,
+        "pixel": {
+          "x_px": 670.0,
+          "y_px": 125.0
+        },
+        "court": {
+          "x_m": 6.259537189682871,
+          "y_m": -7.756806420655125
+        },
+        "visible": true,
+        "confidence": 0.9646950364112854,
+        "event_type": "flight"
+      },
+      {
+        "frame": 17,
+        "pixel": {
+          "x_px": 670.0,
+          "y_px": 130.0
+        },
+        "court": {
+          "x_m": 6.248481525798564,
+          "y_m": -6.886906407607746
+        },
+        "visible": true,
+        "confidence": 0.9482690691947937,
+        "event_type": "flight"
+      },
+      {
+        "frame": 18,
+        "pixel": {
+          "x_px": 685.0,
+          "y_px": 140.0
+        },
+        "court": {
+          "x_m": 6.637732430360567,
+          "y_m": -5.235964073605809
+        },
+        "visible": true,
+        "confidence": 0.8564079403877258,
+        "event_type": "flight"
+      },
+      {
+        "frame": 19,
+        "pixel": {
+          "x_px": 682.5,
+          "y_px": 150.0
+        },
+        "court": {
+          "x_m": 6.539382413611294,
+          "y_m": -3.671146816416556
+        },
+        "visible": true,
+        "confidence": 0.7390996217727661,
+        "event_type": "flight"
+      },
+      {
+        "frame": 20,
+        "pixel": {
+          "x_px": 685.0,
+          "y_px": 160.0
+        },
+        "court": {
+          "x_m": 6.575639903926803,
+          "y_m": -2.1988467349140537
+        },
+        "visible": true,
+        "confidence": 0.7288212180137634,
+        "event_type": "flight"
+      },
+      {
+        "frame": 21,
+        "pixel": {
+          "x_px": 672.5,
+          "y_px": 160.0
+        },
+        "court": {
+          "x_m": 6.253256145230493,
+          "y_m": -2.191870489035799
+        },
+        "visible": true,
+        "confidence": 0.9362608790397644,
+        "event_type": "flight"
+      },
+      {
+        "frame": 22,
+        "pixel": {
+          "x_px": 672.5,
+          "y_px": 167.5
+        },
+        "court": {
+          "x_m": 6.238547015086665,
+          "y_m": -1.1410904627884217
+        },
+        "visible": true,
+        "confidence": 0.9520831108093262,
+        "event_type": "flight"
+      },
+      {
+        "frame": 23,
+        "pixel": {
+          "x_px": 672.5,
+          "y_px": 177.5
+        },
+        "court": {
+          "x_m": 6.219870542012708,
+          "y_m": 0.19310569123079815
+        },
+        "visible": true,
+        "confidence": 0.9637975096702576,
+        "event_type": "flight"
+      },
+      {
+        "frame": 24,
+        "pixel": {
+          "x_px": 672.5,
+          "y_px": 190.0
+        },
+        "court": {
+          "x_m": 6.197909813841021,
+          "y_m": 1.761920046602029
+        },
+        "visible": true,
+        "confidence": 0.9658190608024597,
+        "event_type": "flight"
+      },
+      {
+        "frame": 25,
+        "pixel": {
+          "x_px": 672.5,
+          "y_px": 205.0
+        },
+        "court": {
+          "x_m": 6.173394900318396,
+          "y_m": 3.5131984174423874
+        },
+        "visible": true,
+        "confidence": 0.9555922150611877,
+        "event_type": "flight"
+      },
+      {
+        "frame": 26,
+        "pixel": {
+          "x_px": 672.5,
+          "y_px": 222.5
+        },
+        "court": {
+          "x_m": 6.147051400417379,
+          "y_m": 5.395105997752955
+        },
+        "visible": true,
+        "confidence": 0.9520609378814697,
+        "event_type": "flight"
+      },
+      {
+        "frame": 27,
+        "pixel": {
+          "x_px": 672.5,
+          "y_px": 257.5
+        },
+        "court": {
+          "x_m": 6.100555268982393,
+          "y_m": 8.716662454996259
+        },
+        "visible": true,
+        "confidence": 0.9551328420639038,
+        "event_type": "flight"
+      },
+      {
+        "frame": 28,
+        "pixel": {
+          "x_px": 672.5,
+          "y_px": 280.0
+        },
+        "court": {
+          "x_m": 6.07432716955956,
+          "y_m": 10.590326140779332
+        },
+        "visible": true,
+        "confidence": 0.9409062266349792,
+        "event_type": "flight"
+      },
+      {
+        "frame": 29,
+        "pixel": {
+          "x_px": 672.5,
+          "y_px": 300.0
+        },
+        "court": {
+          "x_m": 6.053038325681033,
+          "y_m": 12.111142919930893
+        },
+        "visible": true,
+        "confidence": 0.9082940816879272,
+        "event_type": "flight"
+      },
+      {
+        "frame": 30,
+        "pixel": {
+          "x_px": 677.5,
+          "y_px": 297.5
+        },
+        "court": {
+          "x_m": 6.148110117327721,
+          "y_m": 11.926639059027833
+        },
+        "visible": true,
+        "confidence": 0.9482306838035583,
+        "event_type": "hit"
+      },
+      {
+        "frame": 31,
+        "pixel": {
+          "x_px": 685.0,
+          "y_px": 280.0
+        },
+        "court": {
+          "x_m": 6.31424026907126,
+          "y_m": 10.58693295460069
+        },
+        "visible": true,
+        "confidence": 0.9368425607681274,
+        "event_type": "flight"
+      },
+      {
+        "frame": 32,
+        "pixel": {
+          "x_px": 692.5,
+          "y_px": 265.0
+        },
+        "court": {
+          "x_m": 6.488099611717562,
+          "y_m": 9.355943876275097
+        },
+        "visible": true,
+        "confidence": 0.9459619522094727,
+        "event_type": "flight"
+      },
+      {
+        "frame": 33,
+        "pixel": {
+          "x_px": 697.5,
+          "y_px": 255.0
+        },
+        "court": {
+          "x_m": 6.610546887427716,
+          "y_m": 8.488971433059495
+        },
+        "visible": true,
+        "confidence": 0.9591673612594604,
+        "event_type": "flight"
+      },
+      {
+        "frame": 34,
+        "pixel": {
+          "x_px": 702.5,
+          "y_px": 242.5
+        },
+        "court": {
+          "x_m": 6.7455142310652905,
+          "y_m": 7.3490335935839175
+        },
+        "visible": true,
+        "confidence": 0.9502712488174438,
+        "event_type": "flight"
+      },
+      {
+        "frame": 35,
+        "pixel": {
+          "x_px": 710.0,
+          "y_px": 235.0
+        },
+        "court": {
+          "x_m": 6.925923750981613,
+          "y_m": 6.631176345264784
+        },
+        "visible": true,
+        "confidence": 0.9592635035514832,
+        "event_type": "flight"
+      },
+      {
+        "frame": 36,
+        "pixel": {
+          "x_px": 715.0,
+          "y_px": 227.5
+        },
+        "court": {
+          "x_m": 7.0587830274642425,
+          "y_m": 5.888246602732333
+        },
+        "visible": true,
+        "confidence": 0.9599931240081787,
+        "event_type": "flight"
+      },
+      {
+        "frame": 37,
+        "pixel": {
+          "x_px": 717.5,
+          "y_px": 220.0
+        },
+        "court": {
+          "x_m": 7.1414545194873424,
+          "y_m": 5.118932382668831
+        },
+        "visible": true,
+        "confidence": 0.9435950517654419,
+        "event_type": "flight"
+      },
+      {
+        "frame": 38,
+        "pixel": {
+          "x_px": 722.5,
+          "y_px": 215.0
+        },
+        "court": {
+          "x_m": 7.2726265304972,
+          "y_m": 4.58884922763604
+        },
+        "visible": true,
+        "confidence": 0.9492599964141846,
+        "event_type": "flight"
+      },
+      {
+        "frame": 39,
+        "pixel": {
+          "x_px": 727.5,
+          "y_px": 212.5
+        },
+        "court": {
+          "x_m": 7.395561827224861,
+          "y_m": 4.317831371020545
+        },
+        "visible": true,
+        "confidence": 0.9517752528190613,
+        "event_type": "flight"
+      },
+      {
+        "frame": 40,
+        "pixel": {
+          "x_px": 730.0,
+          "y_px": 207.5
+        },
+        "court": {
+          "x_m": 7.475620373732884,
+          "y_m": 3.7685247083563818
+        },
+        "visible": true,
+        "confidence": 0.9523833990097046,
+        "event_type": "flight"
+      },
+      {
+        "frame": 41,
+        "pixel": {
+          "x_px": 735.0,
+          "y_px": 207.5
+        },
+        "court": {
+          "x_m": 7.5892915835487775,
+          "y_m": 3.7664638062051043
+        },
+        "visible": true,
+        "confidence": 0.9635266065597534,
+        "event_type": "flight"
+      },
+      {
+        "frame": 42,
+        "pixel": {
+          "x_px": 740.0,
+          "y_px": 207.5
+        },
+        "court": {
+          "x_m": 7.702977941832846,
+          "y_m": 3.7644026294063564
+        },
+        "visible": true,
+        "confidence": 0.9472172260284424,
+        "event_type": "flight"
+      },
+      {
+        "frame": 43,
+        "pixel": {
+          "x_px": 742.5,
+          "y_px": 205.0
+        },
+        "court": {
+          "x_m": 7.7738289055756695,
+          "y_m": 3.4839200735195086
+        },
+        "visible": true,
+        "confidence": 0.9463916420936584,
+        "event_type": "flight"
+      },
+      {
+        "frame": 44,
+        "pixel": {
+          "x_px": 745.0,
+          "y_px": 205.0
+        },
+        "court": {
+          "x_m": 7.831042842130785,
+          "y_m": 3.4828734016129235
+        },
+        "visible": true,
+        "confidence": 0.956322431564331,
+        "event_type": "bounce"
+      },
+      {
+        "frame": 45,
+        "pixel": {
+          "x_px": 747.5,
+          "y_px": 192.5
+        },
+        "court": {
+          "x_m": 7.96477976227336,
+          "y_m": 2.0294496875446764
+        },
+        "visible": true,
+        "confidence": 0.959656834602356,
+        "event_type": "flight"
+      },
+      {
+        "frame": 46,
+        "pixel": {
+          "x_px": 750.0,
+          "y_px": 182.5
+        },
+        "court": {
+          "x_m": 8.090396906885061,
+          "y_m": 0.7959528939709998
+        },
+        "visible": true,
+        "confidence": 0.9505289196968079,
+        "event_type": "flight"
+      },
+      {
+        "frame": 47,
+        "pixel": {
+          "x_px": 752.5,
+          "y_px": 172.5
+        },
+        "court": {
+          "x_m": 8.222975404472287,
+          "y_m": -0.5059008631429018
+        },
+        "visible": true,
+        "confidence": 0.9660844802856445,
+        "event_type": "flight"
+      },
+      {
+        "frame": 48,
+        "pixel": {
+          "x_px": 755.0,
+          "y_px": 165.0
+        },
+        "court": {
+          "x_m": 8.343260785575689,
+          "y_m": -1.5309792755153278
+        },
+        "visible": true,
+        "confidence": 0.9593417644500732,
+        "event_type": "flight"
+      },
+      {
+        "frame": 49,
+        "pixel": {
+          "x_px": 755.0,
+          "y_px": 157.5
+        },
+        "court": {
+          "x_m": 8.403669305166115,
+          "y_m": -2.5991085244496217
+        },
+        "visible": true,
+        "confidence": 0.9501042366027832,
+        "event_type": "flight"
+      },
+      {
+        "frame": 50,
+        "pixel": {
+          "x_px": 760.0,
+          "y_px": 152.5
+        },
+        "court": {
+          "x_m": 8.57752262682612,
+          "y_m": -3.3402135603125815
+        },
+        "visible": true,
+        "confidence": 0.9613545536994934,
+        "event_type": "flight"
+      },
+      {
+        "frame": 51,
+        "pixel": {
+          "x_px": 760.0,
+          "y_px": 147.5
+        },
+        "court": {
+          "x_m": 8.62247808149211,
+          "y_m": -4.100423798431232
+        },
+        "visible": true,
+        "confidence": 0.9535433650016785,
+        "event_type": "flight"
+      },
+      {
+        "frame": 52,
+        "pixel": {
+          "x_px": 762.5,
+          "y_px": 145.0
+        },
+        "court": {
+          "x_m": 8.713008484060273,
+          "y_m": -4.490618958306266
+        },
+        "visible": true,
+        "confidence": 0.9609989523887634,
+        "event_type": "flight"
+      },
+      {
+        "frame": 53,
+        "pixel": {
+          "x_px": 765.0,
+          "y_px": 140.0
+        },
+        "court": {
+          "x_m": 8.829633485182763,
+          "y_m": -5.28729809646155
+        },
+        "visible": true,
+        "confidence": 0.9445539116859436,
+        "event_type": "hit"
+      },
+      {
+        "frame": 54,
+        "pixel": {
+          "x_px": 760.0,
+          "y_px": 137.5
+        },
+        "court": {
+          "x_m": 8.71652174012116,
+          "y_m": -5.690730306309166
+        },
+        "visible": true,
+        "confidence": 0.9372857213020325,
+        "event_type": "hit"
+      },
+      {
+        "frame": 55,
+        "pixel": {
+          "x_px": 755.0,
+          "y_px": 135.0
+        },
+        "court": {
+          "x_m": 8.601682152333535,
+          "y_m": -6.100325160087771
+        },
+        "visible": true,
+        "confidence": 0.9137747883796692,
+        "event_type": "flight"
+      },
+      {
+        "frame": 56,
+        "pixel": {
+          "x_px": 752.5,
+          "y_px": 132.5
+        },
+        "court": {
+          "x_m": 8.555232107687713,
+          "y_m": -6.51791886362236
+        },
+        "visible": true,
+        "confidence": 0.944667398929596,
+        "event_type": "flight"
+      },
+      {
+        "frame": 57,
+        "pixel": {
+          "x_px": 742.5,
+          "y_px": 145.0
+        },
+        "court": {
+          "x_m": 8.172776602145317,
+          "y_m": -4.478218028413131
+        },
+        "visible": true,
+        "confidence": 0.7430214285850525,
+        "event_type": "flight"
+      },
+      {
+        "frame": 58,
+        "pixel": {
+          "x_px": 740.0,
+          "y_px": 150.0
+        },
+        "court": {
+          "x_m": 8.067628360839288,
+          "y_m": -3.7055376879023734
+        },
+        "visible": true,
+        "confidence": 0.8402012586593628,
+        "event_type": "flight"
+      },
+      {
+        "frame": 59,
+        "pixel": {
+          "x_px": 740.0,
+          "y_px": 155.0
+        },
+        "court": {
+          "x_m": 8.031079535053898,
+          "y_m": -2.9568273257192206
+        },
+        "visible": true,
+        "confidence": 0.8828424215316772,
+        "event_type": "flight"
+      }
+    ],
+    "contact_frame": 10,
+    "bounce_frame": 2,
+    "source_model": {
+      "component": "ball",
+      "checkpoint": "tracknet_best.pt",
+      "metric_name": "val_pck@4px",
+      "metric_value": 0.9637339404781265,
+      "source_file": "game1/Clip5 frames[29:89]"
+    }
+  },
+  "court": {
+    "keypoints_px": [
+      {
+        "x_px": 420.51658630371094,
+        "y_px": 174.20858502388
+      },
+      {
+        "x_px": 864.8577117919922,
+        "y_px": 175.61480283737183
+      },
+      {
+        "x_px": 193.38804244995117,
+        "y_px": 535.9005117416382
+      },
+      {
+        "x_px": 1084.971694946289,
+        "y_px": 539.5007228851318
+      },
+      {
+        "x_px": 476.49452209472656,
+        "y_px": 175.23954033851624
+      },
+      {
+        "x_px": 308.8993835449219,
+        "y_px": 537.5757122039795
+      },
+      {
+        "x_px": 808.9673614501953,
+        "y_px": 178.04983019828796
+      },
+      {
+        "x_px": 972.857666015625,
+        "y_px": 538.010745048523
+      },
+      {
+        "x_px": 452.2986602783203,
+        "y_px": 224.19872760772705
+      },
+      {
+        "x_px": 831.5938568115234,
+        "y_px": 223.8266086578369
+      },
+      {
+        "x_px": 371.58599853515625,
+        "y_px": 401.3084650039673
+      },
+      {
+        "x_px": 907.783203125,
+        "y_px": 403.026065826416
+      },
+      {
+        "x_px": 641.2982177734375,
+        "y_px": 223.01368474960327
+      },
+      {
+        "x_px": 639.7704315185547,
+        "y_px": 400.2034378051758
+      }
+    ],
+    "keypoints_confidence": null,
+    "homography_matrix": [
+      [
+        0.04653282742445233,
+        0.0287968412672933,
+        -24.57471701093799
+      ],
+      [
+        -0.0009506105716758955,
+        0.24784404203173274,
+        -42.98574932864658
+      ],
+      [
+        -0.000027395261597430215,
+        0.0051853521059039885,
+        1.0
+      ]
+    ],
+    "homography_reprojection_error_m": 0.0737244563156421,
+    "source_model": {
+      "component": "court",
+      "checkpoint": "court_kp_best.pt",
+      "metric_name": "val_dist_px",
+      "metric_value": 6.14145085471017,
+      "source_file": "0059.jpg"
+    }
+  },
+  "stroke": {
+    "predicted_class": "backhand",
+    "confidence": 0.9990253448486328,
+    "class_probabilities": {
+      "forehand": 0.00009304074046667665,
+      "backhand": 0.9990253448486328,
+      "serve": 0.0004917299374938011,
+      "volley": 0.00002372110066062305,
+      "smash": 0.0003662350063677877
+    },
+    "source_model": {
+      "component": "stroke",
+      "checkpoint": "stroke_gru_best.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.8281884627275344,
+      "source_file": "game1/Clip5 frames[29:89] (real MediaPipe Pose extraction, no ground-truth stroke label -- this is real broadcast footage, not a THETIS clip)"
+    }
+  },
+  "momentum": null,
+  "provenance": []
+}

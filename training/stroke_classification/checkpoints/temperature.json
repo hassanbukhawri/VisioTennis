@@ -1,0 +1,7 @@
+{
+  "temperature": 2.4741480350494385,
+  "fitted_on": "training/stroke_classification/checkpoints/augmented/stroke_gru_augmented_best.pt (deployed, 2026-08-22)",
+  "val_split": "D:\\VisioTennis-app\\data\\VisioTennis\\Dataset\\StrokeClassification\\processed_clean/val (288 samples, unaugmented)",
+  "test_ece_before": 0.25694558024406433,
+  "test_ece_after": 0.14801587164402008
+}

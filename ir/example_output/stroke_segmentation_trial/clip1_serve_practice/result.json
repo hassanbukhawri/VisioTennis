@@ -1,0 +1,97 @@
+{
+  "clip_name": "clip1_serve_practice.mp4",
+  "n_frames": 288,
+  "fps": 25.0,
+  "duration_s": 11.52,
+  "n_pose_detected": 288,
+  "pose_detection_rate": 1.0,
+  "dominant_wrist": "left",
+  "n_candidates_filter_off": 4,
+  "candidates_filter_off": [
+    {
+      "contact_frame": 48,
+      "window_start": 18,
+      "window_end": 78,
+      "speed": 0.029135696589946747,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 108,
+      "window_start": 78,
+      "window_end": 138,
+      "speed": 0.11499232798814774,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 155,
+      "window_start": 125,
+      "window_end": 185,
+      "speed": 0.0321822464466095,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    },
+    {
+      "contact_frame": 235,
+      "window_start": 205,
+      "window_end": 265,
+      "speed": 0.08186060935258865,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": null
+    }
+  ],
+  "n_candidates_filter_on": 4,
+  "candidates_filter_on": [
+    {
+      "contact_frame": 48,
+      "window_start": 18,
+      "window_end": 78,
+      "speed": 0.029135696589946747,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 7.5060882568359375,
+      "predicted_class": "volley",
+      "confidence": 0.6946534514427185,
+      "timestamp_s": 1.92
+    },
+    {
+      "contact_frame": 108,
+      "window_start": 78,
+      "window_end": 138,
+      "speed": 0.11499232798814774,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 10.69512939453125,
+      "predicted_class": "volley",
+      "confidence": 0.6055434346199036,
+      "timestamp_s": 4.32
+    },
+    {
+      "contact_frame": 155,
+      "window_start": 125,
+      "window_end": 185,
+      "speed": 0.0321822464466095,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 9.202339172363281,
+      "predicted_class": "volley",
+      "confidence": 0.7002316117286682,
+      "timestamp_s": 6.2
+    },
+    {
+      "contact_frame": 235,
+      "window_start": 205,
+      "window_end": 265,
+      "speed": 0.08186060935258865,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 38.904449462890625,
+      "predicted_class": "volley",
+      "confidence": 0.9070857167243958,
+      "timestamp_s": 9.4
+    }
+  ],
+  "rejected_by_rotation": [],
+  "plot_path": "D:\\VisioTennis-app\\ir\\example_output\\stroke_segmentation_trial\\clip1_serve_practice\\speed_plot.png",
+  "contact_sheet_paths": [
+    "D:\\VisioTennis-app\\ir\\example_output\\stroke_segmentation_trial\\clip1_serve_practice\\contact_sheet_0_frames0-200.png",
+    "D:\\VisioTennis-app\\ir\\example_output\\stroke_segmentation_trial\\clip1_serve_practice\\contact_sheet_1_frames200-288.png"
+  ]
+}

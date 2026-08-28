@@ -1,0 +1,5 @@
+grounding_rate = 3/3 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) 'Your double fault rate (0.16) is 4.6 standard deviations above average, indicating potential pressure-related issues during service games.' -- features.double_fault_rate=0.15929321753546458 confirmed
+  [GROUNDED] (grounded_observation) 'The unforced error rate (0.34) is 3.4 standard deviations above average, suggesting possible fatigue or rushed shot selection towards the end of the session.' -- features.unforced_error_rate=0.3397054701523686 confirmed
+  [GROUNDED] (grounded_observation) 'Your first-serve points won percentage (53.74%) is 2.0 standard deviations below average, which may indicate inconsistency in first-serve placement or follow-through.' -- features.first_serve_points_won_pct=53.73725822766315 confirmed

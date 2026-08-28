@@ -1,0 +1,5 @@
+grounding_rate = 3/3 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) 'Your double-fault rate was 0.16, which is notably higher than usual. This suggests you may have pushed too hard on second serves under pressure, especially if these clustered on break points or late in games. Consider adjusting your second-serve strategy in high-pressure moments.' -- features.double_fault_rate=0.15929321753546458 confirmed
+  [GROUNDED] (grounded_observation) "Your unforced error rate was 0.34, which is above average. Check if these errors clustered late in the session or on specific shots. If fatigue is a factor, ensure you're taking adequate rest between points to maintain sharpness." -- features.unforced_error_rate=0.3397054701523686 confirmed
+  [GROUNDED] (grounded_observation) 'You won 53.74% of points behind your first serve, which is below average. This could indicate the returner read your serve patterns well today. Focus on varying your first-serve placement and pace to keep them guessing.' -- features.first_serve_points_won_pct=53.73725822766315 confirmed

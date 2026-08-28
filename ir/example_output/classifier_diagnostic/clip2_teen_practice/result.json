@@ -1,0 +1,201 @@
+{
+  "clip_name": "clip2_teen_practice",
+  "source_path": "D:\\VisioTennis-app\\mvp\\real_footage_test\\clip2_teen_practice.mp4",
+  "kind": "video",
+  "n_frames": 631,
+  "n_pose_detected": 619,
+  "pose_detection_rate": 0.9809825673534073,
+  "dominant_wrist": "left",
+  "n_candidates": 9,
+  "candidates": [
+    {
+      "contact_frame": 34,
+      "window_start": 4,
+      "window_end": 64,
+      "speed": 0.08175977319478989,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 14.933883666992188,
+      "predicted_class": "backhand",
+      "confidence": 0.9998157620429993,
+      "class_probabilities": {
+        "forehand": 9.823549771681428e-05,
+        "backhand": 0.9998157620429993,
+        "serve": 3.949005258618854e-05,
+        "volley": 4.276975596440025e-05,
+        "smash": 3.776385710807517e-06
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.19132789969444275,
+      "min_wrist_minus_nose_y_in_window": 0.0516757071018219,
+      "wrist_ever_above_nose_in_window": false
+    },
+    {
+      "contact_frame": 142,
+      "window_start": 112,
+      "window_end": 172,
+      "speed": 0.13949549198150635,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 18.74468994140625,
+      "predicted_class": "backhand",
+      "confidence": 0.9892674088478088,
+      "class_probabilities": {
+        "forehand": 0.002357266377657652,
+        "backhand": 0.9892674088478088,
+        "serve": 0.008136235177516937,
+        "volley": 7.581182217109017e-06,
+        "smash": 0.00023143824364524335
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.04845517873764038,
+      "min_wrist_minus_nose_y_in_window": 0.031050026416778564,
+      "wrist_ever_above_nose_in_window": false
+    },
+    {
+      "contact_frame": 213,
+      "window_start": 183,
+      "window_end": 243,
+      "speed": 0.04418604448437691,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 11.8460693359375,
+      "predicted_class": "volley",
+      "confidence": 0.9895972609519958,
+      "class_probabilities": {
+        "forehand": 0.009476796723902225,
+        "backhand": 0.0008973745862022042,
+        "serve": 1.5388435770091746e-07,
+        "volley": 0.9895972609519958,
+        "smash": 2.8443919291021302e-05
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.12545740604400635,
+      "min_wrist_minus_nose_y_in_window": 0.02052965760231018,
+      "wrist_ever_above_nose_in_window": false
+    },
+    {
+      "contact_frame": 259,
+      "window_start": 229,
+      "window_end": 289,
+      "speed": 0.26269444823265076,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 21.06842041015625,
+      "predicted_class": "backhand",
+      "confidence": 0.9991753697395325,
+      "class_probabilities": {
+        "forehand": 0.0005926238954998553,
+        "backhand": 0.9991753697395325,
+        "serve": 3.442198703851318e-06,
+        "volley": 0.0002227112272521481,
+        "smash": 5.855991275893757e-06
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.27241748571395874,
+      "min_wrist_minus_nose_y_in_window": 0.015552222728729248,
+      "wrist_ever_above_nose_in_window": false
+    },
+    {
+      "contact_frame": 340,
+      "window_start": 310,
+      "window_end": 370,
+      "speed": 0.1070934608578682,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 11.85791015625,
+      "predicted_class": "backhand",
+      "confidence": 0.8300520181655884,
+      "class_probabilities": {
+        "forehand": 0.00927368551492691,
+        "backhand": 0.8300520181655884,
+        "serve": 0.14873315393924713,
+        "volley": 6.209628281794721e-06,
+        "smash": 0.011934950947761536
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.08813530206680298,
+      "min_wrist_minus_nose_y_in_window": 0.02093648910522461,
+      "wrist_ever_above_nose_in_window": false
+    },
+    {
+      "contact_frame": 385,
+      "window_start": 355,
+      "window_end": 415,
+      "speed": 0.05380687117576599,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 10.725143432617188,
+      "predicted_class": "backhand",
+      "confidence": 0.9848265647888184,
+      "class_probabilities": {
+        "forehand": 0.014352843165397644,
+        "backhand": 0.9848265647888184,
+        "serve": 2.7373133093533397e-07,
+        "volley": 0.0008185295155271888,
+        "smash": 1.9347078250575578e-06
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.243426114320755,
+      "min_wrist_minus_nose_y_in_window": 0.0004794597625732422,
+      "wrist_ever_above_nose_in_window": false
+    },
+    {
+      "contact_frame": 439,
+      "window_start": 409,
+      "window_end": 469,
+      "speed": 0.13883621990680695,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 25.253387451171875,
+      "predicted_class": "backhand",
+      "confidence": 0.9796916842460632,
+      "class_probabilities": {
+        "forehand": 0.019752947613596916,
+        "backhand": 0.9796916842460632,
+        "serve": 0.0002107447653543204,
+        "volley": 2.7221853997616563e-06,
+        "smash": 0.00034179678186774254
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.12470617890357971,
+      "min_wrist_minus_nose_y_in_window": 0.024003267288208008,
+      "wrist_ever_above_nose_in_window": false
+    },
+    {
+      "contact_frame": 493,
+      "window_start": 463,
+      "window_end": 523,
+      "speed": 0.029080117121338844,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 7.691131591796875,
+      "predicted_class": "forehand",
+      "confidence": 0.9906454086303711,
+      "class_probabilities": {
+        "forehand": 0.9906454086303711,
+        "backhand": 0.009225846268236637,
+        "serve": 1.0383947483205702e-05,
+        "volley": 3.03104334307136e-05,
+        "smash": 8.803816308500245e-05
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.09818539023399353,
+      "min_wrist_minus_nose_y_in_window": -0.0025680959224700928,
+      "wrist_ever_above_nose_in_window": true
+    },
+    {
+      "contact_frame": 574,
+      "window_start": 544,
+      "window_end": 604,
+      "speed": 0.13929560780525208,
+      "window_valid_fraction": 1.0,
+      "trunk_rotation_peak": 11.685623168945312,
+      "predicted_class": "backhand",
+      "confidence": 0.9883813261985779,
+      "class_probabilities": {
+        "forehand": 0.001366646378301084,
+        "backhand": 0.9883813261985779,
+        "serve": 0.010085494257509708,
+        "volley": 2.809417128446512e-05,
+        "smash": 0.0001383987400913611
+      },
+      "wrist_above_nose_at_contact": false,
+      "wrist_minus_nose_y": 0.1902318000793457,
+      "min_wrist_minus_nose_y_in_window": 0.06989586353302002,
+      "wrist_ever_above_nose_in_window": false
+    }
+  ]
+}

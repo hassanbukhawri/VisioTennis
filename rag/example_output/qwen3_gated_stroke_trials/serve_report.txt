@@ -1,0 +1,5 @@
+grounding_rate = 3/3 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) "Your shoulder-hip separation angle is unusually low, which may indicate a compact swing plane. This isn't inherently problematic, but consider checking if it aligns with your balance and follow-through mechanics." -- biomechanics.shoulder_hip_separation_deg=1.9807281494140625 confirmed at 4.8th percentile for serve (n=398)
+  [GROUNDED] (grounded_observation) "Your right knee flex at contact is on the lower end of the spectrum, which is typical for players with a more linear leg motion. This doesn't directly impact performance but could be worth examining alongside your weight transfer patterns." -- biomechanics.knee_flex_right_deg=147.9411585655812 confirmed at 5.8th percentile for serve (n=398)
+  [GROUNDED] (grounded_observation) 'Your stance width at contact is narrower than most players, which is consistent with a focused, compact swing approach. This may contribute to stability but should be evaluated in relation to your overall footwork pattern.' -- biomechanics.stance_width_ratio=0.5257604211251412 confirmed at 6.0th percentile for serve (n=398)

@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "text": "Your double fault rate of 15.93% (4.6 standard deviations above average) suggests pressure-related issues, particularly on break points or late in service games.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.double_fault_rate",
+        "cited_value": 0.15929321753546458
+      }
+    },
+    {
+      "text": "The unforced error rate of 33.97% (3.4 standard deviations above average) indicates potential fatigue-driven timing breakdowns or rushed shot selection.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.unforced_error_rate",
+        "cited_value": 0.3397054701523686
+      }
+    },
+    {
+      "text": "First serve points won percentage of 53.74% (2.0 standard deviations below average) highlights opportunities to improve second-serve placement and consistency.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.first_serve_points_won_pct",
+        "cited_value": 53.73725822766315
+      }
+    },
+    {
+      "text": "The session shows a mix of strengths and areas for improvement, particularly in managing pressure situations and shot selection under fatigue."
+    }
+  ]
+}

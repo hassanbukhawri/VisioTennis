@@ -1,0 +1,58 @@
+[
+  {
+    "trial": 1,
+    "latency_s": 60.28099999999995,
+    "parse_ok": true,
+    "n_items": 4,
+    "n_pass": 4,
+    "rate_pct": 100.0,
+    "fail_kinds": []
+  },
+  {
+    "trial": 2,
+    "latency_s": 53.03099999999995,
+    "parse_ok": true,
+    "n_items": 3,
+    "n_pass": 3,
+    "rate_pct": 100.0,
+    "fail_kinds": [
+      "SUSPECT_GENERAL_NOTE"
+    ]
+  },
+  {
+    "trial": 3,
+    "latency_s": 56.04700000000048,
+    "parse_ok": true,
+    "n_items": 3,
+    "n_pass": 3,
+    "rate_pct": 100.0,
+    "fail_kinds": []
+  },
+  {
+    "trial": 4,
+    "latency_s": 76.79699999999957,
+    "parse_ok": true,
+    "n_items": 3,
+    "n_pass": 3,
+    "rate_pct": 100.0,
+    "fail_kinds": []
+  },
+  {
+    "trial": 5,
+    "latency_s": 47.89000000000033,
+    "parse_ok": true,
+    "n_items": 3,
+    "n_pass": 3,
+    "rate_pct": 100.0,
+    "fail_kinds": []
+  },
+  {
+    "trial": 6,
+    "latency_s": 68.46900000000005,
+    "parse_ok": true,
+    "n_items": 3,
+    "n_pass": 3,
+    "rate_pct": 100.0,
+    "fail_kinds": []
+  }
+]

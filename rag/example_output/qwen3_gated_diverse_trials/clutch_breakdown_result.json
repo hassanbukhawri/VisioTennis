@@ -1,0 +1,30 @@
+{
+  "session_name": "clutch_breakdown",
+  "explanation": "break_points_saved_pct=0.00 (4.6 std below average); unforced_error_rate=0.25 (1.6 std above average); avg_reaction_time_ms=264.77 (1.5 std above average)",
+  "expected_features": [
+    "avg_reaction_time_ms",
+    "break_points_saved_pct",
+    "unforced_error_rate"
+  ],
+  "retrieved_topics": [
+    "avg_reaction_time_ms",
+    "break_points_saved_pct",
+    "unforced_error_rate"
+  ],
+  "retrieval_recall": 1.0,
+  "success": true,
+  "n_attempts": 1,
+  "total_latency_s": 38.28099999999995,
+  "failure_reason": "",
+  "attempts": [
+    {
+      "attempt_num": 1,
+      "latency_s": 38.28099999999995,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 3,
+      "grounded_pass_count": 3,
+      "accepted": true
+    }
+  ]
+}

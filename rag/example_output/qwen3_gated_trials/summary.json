@@ -1,0 +1,48 @@
+{
+  "n_trials": 6,
+  "max_attempts": 3,
+  "n_success": 6,
+  "n_needed_retry": 1,
+  "total_attempts": 8,
+  "avg_attempts_overall": 1.3333333333333333,
+  "avg_attempts_on_success": 1.3333333333333333,
+  "total_latency_s": 344.2969999999998,
+  "trials": [
+    {
+      "trial": 1,
+      "success": true,
+      "n_attempts": 3,
+      "total_latency_s": 192.57799999999997
+    },
+    {
+      "trial": 2,
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 41.0
+    },
+    {
+      "trial": 3,
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 31.32899999999995
+    },
+    {
+      "trial": 4,
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 22.061999999999898
+    },
+    {
+      "trial": 5,
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 23.6400000000001
+    },
+    {
+      "trial": 6,
+      "success": true,
+      "n_attempts": 1,
+      "total_latency_s": 33.687999999999874
+    }
+  ]
+}

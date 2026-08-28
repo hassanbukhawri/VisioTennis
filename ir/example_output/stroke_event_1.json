@@ -1,0 +1,302 @@
+{
+  "schema_version": "0.2.0",
+  "event_id": "ac3c620f-cf7c-46c2-94a6-d9c718ca0b19",
+  "created_at": "2026-07-17T12:37:14.643645Z",
+  "match_id": null,
+  "point_id": null,
+  "player_id": "p_demo_02",
+  "player_side": "far",
+  "source_video": "COMPOSITE (not one real video): ball=game10/Clip8, court=CzMrh40Wit8_150, stroke=test_idx=100 (true label: serve)",
+  "frame_range": {
+    "start_frame": 0,
+    "end_frame": 11,
+    "fps": 30.0
+  },
+  "ball": {
+    "trajectory": [
+      {
+        "frame": 0,
+        "pixel": {
+          "x_px": 830.0,
+          "y_px": 347.5
+        },
+        "court": {
+          "x_m": 9.21385981430613,
+          "y_m": 15.849077918810417
+        },
+        "visible": true,
+        "confidence": 0.9472330808639526,
+        "event_type": "flight"
+      },
+      {
+        "frame": 1,
+        "pixel": {
+          "x_px": 855.0,
+          "y_px": 380.0
+        },
+        "court": {
+          "x_m": 9.471972133988361,
+          "y_m": 17.533355015484325
+        },
+        "visible": true,
+        "confidence": 0.9504900574684143,
+        "event_type": "flight"
+      },
+      {
+        "frame": 2,
+        "pixel": {
+          "x_px": 880.0,
+          "y_px": 415.0
+        },
+        "court": {
+          "x_m": 9.686702435519146,
+          "y_m": 19.152142631804406
+        },
+        "visible": true,
+        "confidence": 0.9248684048652649,
+        "event_type": "flight"
+      },
+      {
+        "frame": 3,
+        "pixel": {
+          "x_px": 897.5,
+          "y_px": 432.5
+        },
+        "court": {
+          "x_m": 9.869546452805354,
+          "y_m": 19.894820300764305
+        },
+        "visible": true,
+        "confidence": 0.9211075305938721,
+        "event_type": "bounce"
+      },
+      {
+        "frame": 4,
+        "pixel": {
+          "x_px": 922.5,
+          "y_px": 435.0
+        },
+        "court": {
+          "x_m": 10.272427883588737,
+          "y_m": 19.994245566705107
+        },
+        "visible": true,
+        "confidence": 0.8700342774391174,
+        "event_type": "flight"
+      },
+      {
+        "frame": 5,
+        "pixel": {
+          "x_px": 945.0,
+          "y_px": 440.0
+        },
+        "court": {
+          "x_m": 10.610994037986234,
+          "y_m": 20.194925088670296
+        },
+        "visible": true,
+        "confidence": 0.9022844433784485,
+        "event_type": "flight"
+      },
+      {
+        "frame": 6,
+        "pixel": {
+          "x_px": 970.0,
+          "y_px": 445.0
+        },
+        "court": {
+          "x_m": 10.985727446320668,
+          "y_m": 20.392182506975804
+        },
+        "visible": true,
+        "confidence": 0.9412793517112732,
+        "event_type": "flight"
+      },
+      {
+        "frame": 7,
+        "pixel": {
+          "x_px": 995.0,
+          "y_px": 452.5
+        },
+        "court": {
+          "x_m": 11.333013671433745,
+          "y_m": 20.684338375040806
+        },
+        "visible": true,
+        "confidence": 0.9585080146789551,
+        "event_type": "flight"
+      },
+      {
+        "frame": 8,
+        "pixel": {
+          "x_px": 1017.5,
+          "y_px": 457.5
+        },
+        "court": {
+          "x_m": 11.654823681693488,
+          "y_m": 20.87462748214713
+        },
+        "visible": true,
+        "confidence": 0.9195377230644226,
+        "event_type": "flight"
+      },
+      {
+        "frame": 9,
+        "pixel": {
+          "x_px": 990.0,
+          "y_px": 430.0
+        },
+        "court": {
+          "x_m": 11.45069796842986,
+          "y_m": 19.77676290363601
+        },
+        "visible": true,
+        "confidence": 0.8950841426849365,
+        "event_type": "hit"
+      },
+      {
+        "frame": 10,
+        "pixel": {
+          "x_px": 965.0,
+          "y_px": 402.5
+        },
+        "court": {
+          "x_m": 11.272470757150703,
+          "y_m": 18.58019867262124
+        },
+        "visible": true,
+        "confidence": 0.9355664849281311,
+        "event_type": "flight"
+      },
+      {
+        "frame": 11,
+        "pixel": {
+          "x_px": 940.0,
+          "y_px": 377.5
+        },
+        "court": {
+          "x_m": 11.054146789796329,
+          "y_m": 17.39587354676952
+        },
+        "visible": true,
+        "confidence": 0.9627164006233215,
+        "event_type": "flight"
+      }
+    ],
+    "contact_frame": 9,
+    "bounce_frame": 3,
+    "source_model": {
+      "component": "ball",
+      "checkpoint": "tracknet_best.pt",
+      "metric_name": "val_pck@4px",
+      "metric_value": 0.9637339404781265,
+      "source_file": "game10/Clip8"
+    }
+  },
+  "court": {
+    "keypoints_px": [
+      {
+        "x_px": 452.84759521484375,
+        "y_px": 156.98590636253357
+      },
+      {
+        "x_px": 826.3228607177734,
+        "y_px": 157.6489806175232
+      },
+      {
+        "x_px": 255.58124542236328,
+        "y_px": 539.6557331085205
+      },
+      {
+        "x_px": 1017.1538543701172,
+        "y_px": 542.0965433120728
+      },
+      {
+        "x_px": 499.3589782714844,
+        "y_px": 156.13289952278137
+      },
+      {
+        "x_px": 353.5513687133789,
+        "y_px": 539.4998216629028
+      },
+      {
+        "x_px": 779.5143127441406,
+        "y_px": 156.71581864356995
+      },
+      {
+        "x_px": 922.7645874023438,
+        "y_px": 542.4276781082153
+      },
+      {
+        "x_px": 481.34429931640625,
+        "y_px": 205.66153049468994
+      },
+      {
+        "x_px": 797.3181915283203,
+        "y_px": 206.92611694335938
+      },
+      {
+        "x_px": 406.57135009765625,
+        "y_px": 394.08825874328613
+      },
+      {
+        "x_px": 866.7636108398438,
+        "y_px": 395.76255798339844
+      },
+      {
+        "x_px": 637.8298187255859,
+        "y_px": 205.44997930526733
+      },
+      {
+        "x_px": 638.383903503418,
+        "y_px": 394.66551303863525
+      }
+    ],
+    "keypoints_confidence": null,
+    "homography_matrix": [
+      [
+        0.051187366256034414,
+        0.026270210021871902,
+        -27.30296870368469
+      ],
+      [
+        -0.0004942921752291407,
+        0.21984564733897985,
+        -34.16714822504766
+      ],
+      [
+        -1.7220157268198553e-6,
+        0.0047194314824476865,
+        1.0
+      ]
+    ],
+    "homography_reprojection_error_m": 0.03556237416089124,
+    "source_model": {
+      "component": "court",
+      "checkpoint": "court_kp_best.pt",
+      "metric_name": "val_dist_px",
+      "metric_value": 6.14145085471017,
+      "source_file": "CzMrh40Wit8_150.png"
+    }
+  },
+  "stroke": {
+    "predicted_class": "serve",
+    "confidence": 0.8363690972328186,
+    "class_probabilities": {
+      "forehand": 0.00004533420724328607,
+      "backhand": 0.00008581386646255851,
+      "serve": 0.8363690972328186,
+      "volley": 1.047260838049624e-7,
+      "smash": 0.1634996086359024
+    },
+    "source_model": {
+      "component": "stroke",
+      "checkpoint": "stroke_gru_best.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.8281884627275344,
+      "source_file": "test_idx=100 (true label: serve)"
+    }
+  },
+  "momentum": null,
+  "provenance": []
+}

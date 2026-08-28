@@ -1,0 +1,5 @@
+grounding_rate = 3/3 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) 'Your second serve is winning fewer points than average today (9.07%), which could indicate a need to check serve mechanics or consistency. Consider focusing on first serve placement to reduce pressure on the second serve.' -- features.second_serve_points_won_pct=9.071558716115945 confirmed
+  [GROUNDED] (grounded_observation) "You didn't record any aces today (0.0%), which is significantly below average. This could relate to serve preparation or confidence. Try visualizing successful serves before each delivery to build rhythm." -- features.ace_rate=0.0 confirmed
+  [GROUNDED] (grounded_observation) 'Your unforced error rate (0.2489) is higher than average, which might indicate fatigue toward the end of points. Check if errors clustered in later rallies and consider adjusting rest between points.' -- features.unforced_error_rate=0.2489394921634392 confirmed

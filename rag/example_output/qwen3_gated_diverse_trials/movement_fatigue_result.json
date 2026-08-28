@@ -1,0 +1,30 @@
+{
+  "session_name": "movement_fatigue",
+  "explanation": "avg_reaction_time_ms=403.56 (6.0 std above average); court_coverage_speed_mps=0.76 (6.0 std below average); total_distance_covered_m=689.72 (6.0 std below average)",
+  "expected_features": [
+    "avg_reaction_time_ms",
+    "court_coverage_speed_mps",
+    "total_distance_covered_m"
+  ],
+  "retrieved_topics": [
+    "avg_reaction_time_ms",
+    "court_coverage_speed_mps",
+    "total_distance_covered_m"
+  ],
+  "retrieval_recall": 1.0,
+  "success": true,
+  "n_attempts": 1,
+  "total_latency_s": 33.3130000000001,
+  "failure_reason": "",
+  "attempts": [
+    {
+      "attempt_num": 1,
+      "latency_s": 33.3130000000001,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 3,
+      "grounded_pass_count": 3,
+      "accepted": true
+    }
+  ]
+}

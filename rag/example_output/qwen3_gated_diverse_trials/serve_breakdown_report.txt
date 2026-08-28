@@ -1,0 +1,8 @@
+grounding_rate = 6/6 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) 'Your first serve percentage (22.67%) is 6.0 standard deviations below average, which may indicate the returner read your serve well today rather than a flaw in your toss or motion.' -- features.first_serve_pct=22.665937458047516 confirmed
+  [GROUNDED] (grounded_observation) 'Your first serve points won percentage (23.12%) is also 6.0 standard deviations below average, suggesting the returner may have consistently disrupted your first serve rhythm.' -- features.first_serve_points_won_pct=23.123225821054973 confirmed
+  [GROUNDED] (grounded_observation) 'Your double fault rate (19.22%) is 6.0 standard deviations above average, which likely reflects pressure on the second serve rather than a toss issue - check if these clustered on break points or late in games.' -- features.double_fault_rate=0.19218879693259572 confirmed
+  [GROUNDED] (grounded_observation) 'Your second serve points won percentage (50.65%) is performing normally, indicating your second serve strategy and execution are likely sound today.' -- features.second_serve_points_won_pct=50.645714395709405 confirmed
+  [GROUNDED] (grounded_observation) 'You saved 58.19% of break points, which is solid performance - maintain this consistency by staying focused on your first serve placement and second serve variety.' -- features.break_points_saved_pct=58.18505092688045 confirmed
+  [GROUNDED] (grounded_observation) 'Your unforced error rate (16.59%) is slightly elevated compared to typical performance - focus on maintaining rhythm through your first serve and using your second serve to reset points.' -- features.unforced_error_rate=0.1658588839151713 confirmed

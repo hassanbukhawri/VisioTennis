@@ -1,0 +1,11 @@
+{
+  "clip_name": "game6_clip1_broadcast_medium",
+  "source_path": "D:\\VisioTennis-app\\data\\VisioTennis\\Dataset\\Ball Tracker+Bounce\\game6\\Clip1",
+  "kind": "frame_dir",
+  "n_frames": 596,
+  "n_pose_detected": 33,
+  "pose_detection_rate": 0.05536912751677853,
+  "dominant_wrist": "right",
+  "n_candidates": 0,
+  "candidates": []
+}

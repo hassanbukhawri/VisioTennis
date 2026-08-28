@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.2.0",
+  "record_id": "fe2d19f3-0772-46b0-918a-579fbf485e6c",
+  "created_at": "2026-07-17T12:37:15.227491Z",
+  "player_id": "synthetic_p7",
+  "session_date": null,
+  "features": {
+    "first_serve_pct": 49.108443473374344,
+    "first_serve_points_won_pct": 55.134034441910266,
+    "second_serve_points_won_pct": 39.53707169761924,
+    "ace_rate": 0.020921211612067104,
+    "double_fault_rate": 0.0873771461895684,
+    "break_points_saved_pct": 21.214471578096127,
+    "unforced_error_rate": 0.3500799296473215,
+    "winners_rate": 0.06765493626906154,
+    "avg_rally_length": 3.2348415810266724,
+    "court_coverage_speed_mps": 2.343016540202675,
+    "avg_reaction_time_ms": 250.21856941753884,
+    "total_distance_covered_m": 2048.6149197714753
+  },
+  "anomaly_flag": -1,
+  "anomaly_score": -0.039238296558728014,
+  "explanation": "unforced_error_rate=0.35 (3.6 std above average); break_points_saved_pct=21.21 (2.9 std below average); total_distance_covered_m=2048.61 (2.6 std below average)",
+  "source_model": {
+    "component": "anomaly",
+    "checkpoint": "IsolationForest (fit at population time, not persisted)",
+    "metric_name": "contamination",
+    "metric_value": 0.1,
+    "source_file": "synthetic_demo_data (no real session dataset exists, see DESIGN.md)"
+  }
+}

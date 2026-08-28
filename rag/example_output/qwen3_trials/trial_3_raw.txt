@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "text": "Your double fault rate of 0.1593 (4.6 standard deviations above average) suggests pressure-related over-hitting on second serves, particularly during break points or late in service games.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.double_fault_rate",
+        "cited_value": 0.15929321753546458
+      }
+    },
+    {
+      "text": "The unforced error rate of 0.3397 (3.4 standard deviations above average) indicates rushed shot selection or fatigue-driven timing breakdowns, warranting review of error clusters related to specific shots or session timing.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.unforced_error_rate",
+        "cited_value": 0.3397054701523686
+      }
+    },
+    {
+      "text": "First serve points won percentage of 53.74% (2.0 standard deviations below average) may reflect over-hitting second serves under pressure rather than toss/motion issues, requiring targeted serve strategy adjustments.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.first_serve_points_won_pct",
+        "cited_value": 53.73725822766315
+      }
+    }
+  ]
+}

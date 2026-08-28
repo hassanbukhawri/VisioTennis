@@ -1,0 +1,5 @@
+grounding_rate = 3/3 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) "You double-faulted more than usual today, alongside a lower first-serve percentage – that combination usually means you pushed too hard on the second serve under pressure, not a toss problem. Check whether they clustered on break points or late in games; if so, that's pressure, not technique." -- features.double_fault_rate=0.15929321753546458 confirmed
+  [GROUNDED] (grounded_observation) "You made more unforced errors than usual today. Check when they happened – a cluster late in the session points to fatigue, so rest a bit more between reps; errors on one specific shot point to that shot's technique instead." -- features.unforced_error_rate=0.3397054701523686 confirmed
+  [GROUNDED] (grounded_observation) "You're winning fewer points behind your first serve than usual this session. Before assuming something's wrong with your game, consider that the returner may just have read your serve well today – this kind of dip is often about them, not you." -- features.first_serve_points_won_pct=53.73725822766315 confirmed

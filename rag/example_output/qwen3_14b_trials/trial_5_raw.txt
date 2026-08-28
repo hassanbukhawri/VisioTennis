@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "text": "Your double-fault rate was 0.15929321753546458, which is 4.6 standard deviations above average. This suggests you may have pushed too hard on second serves under pressure; check if these clustered on break points or late in games.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.double_fault_rate",
+        "cited_value": 0.15929321753546458
+      }
+    },
+    {
+      "text": "Your unforced error rate was 0.3397054701523686, 3.4 standard deviations above average. This could indicate fatigue or technique issues on a specific shot; check if errors clustered late in the session or on one type of shot.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.unforced_error_rate",
+        "cited_value": 0.3397054701523686
+      }
+    },
+    {
+      "text": "Your first-serve points won percentage was 53.73725822766315, 2.0 standard deviations below average. This may reflect the returner reading your serve well today rather than a flaw in your game; consider their positioning and spin variation.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.first_serve_points_won_pct",
+        "cited_value": 53.73725822766315
+      }
+    }
+  ]
+}

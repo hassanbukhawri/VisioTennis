@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.2.0",
+  "record_id": "7db6c228-cf1b-4bb7-a047-b5f2c421e22a",
+  "created_at": "2026-07-18T17:02:43.679432Z",
+  "player_id": "synthetic_diverse_serve_breakdown",
+  "session_date": null,
+  "features": {
+    "first_serve_pct": 22.665937458047516,
+    "first_serve_points_won_pct": 23.123225821054973,
+    "second_serve_points_won_pct": 50.645714395709405,
+    "ace_rate": 0.07588660767902293,
+    "double_fault_rate": 0.19218879693259572,
+    "break_points_saved_pct": 58.18505092688045,
+    "unforced_error_rate": 0.1658588839151713,
+    "winners_rate": 0.12727435687460453,
+    "avg_rally_length": 4.4157859009781655,
+    "court_coverage_speed_mps": 3.140396820302058,
+    "avg_reaction_time_ms": 217.53176707357997,
+    "total_distance_covered_m": 3088.6206764760423
+  },
+  "anomaly_flag": -1,
+  "anomaly_score": -0.01472088644297831,
+  "explanation": "first_serve_pct=22.67 (6.0 std below average); first_serve_points_won_pct=23.12 (6.0 std below average); double_fault_rate=0.19 (6.0 std above average)",
+  "source_model": {
+    "component": "anomaly",
+    "checkpoint": "IsolationForest (fit at population time, not persisted)",
+    "metric_name": "contamination",
+    "metric_value": 0.1,
+    "source_file": "synthetic_diverse_profile 'serve_breakdown' (crafted theme-targeted perturbation, blend_alpha=0.0, NOT randomly sampled -- see ir/populate_diverse_sessions.py DIVERSE_PROFILES)"
+  }
+}

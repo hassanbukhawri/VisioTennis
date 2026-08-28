@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "text": "Your double-fault rate was notably high today, which often indicates pushing too hard on second serves under pressure. Check if these clustered during break points or late in games, as that suggests pressure management rather than a toss issue.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.double_fault_rate",
+        "cited_value": 0.15929321753546458
+      }
+    },
+    {
+      "text": "You made more unforced errors than usual, which could signal fatigue or a technique issue on a specific shot. Review error timing—late-session clusters suggest rest adjustments, while consistent shot patterns point to technical refinement.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.unforced_error_rate",
+        "cited_value": 0.3397054701523686
+      }
+    },
+    {
+      "text": "Your first-serve points won percentage was lower than average. This might reflect the returner reading your serve patterns well today—consider whether adjustments in serve variety or placement could help regain control.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.first_serve_points_won_pct",
+        "cited_value": 53.73725822766315
+      }
+    },
+    {
+      "text": "Your average rally length was slightly below the typical range, suggesting shorter exchanges than usual. This could indicate effective shot placement or opponent adjustments—review video to confirm tactical success.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.avg_rally_length",
+        "cited_value": 3.5204410063063203
+      }
+    },
+    {
+      "text": "Your court coverage speed was average, but consider pairing this with your rally length data to assess whether your movement efficiency matched the pace of play today.",
+      "type": "general_note"
+    }
+  ]
+}

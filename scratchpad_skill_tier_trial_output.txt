@@ -1,0 +1,84 @@
+[setup] loaded StrokeEvent event_id=6bc75eb4-1ac6-4b4d-aa75-16ba557768b6 (backhand)
+[setup] 3 existing real citations from a prior gated-pipeline run
+
+######################################################################
+# PART A -- natural live runs (real classifier, no forcing)
+######################################################################
+
+======================================================================
+[original_2026-08-10] message: "what's a good weight transfer ratio for a player at my level?"
+======================================================================
+  route=general_note tier=3 success=True escalated_from_tier3=False
+  text: Focus on shifting your weight smoothly through the shot rather than aiming for a specific ratio. Proper weight transfer enhances power and control by engaging your core and maintaining balance. Practice drills that emphasize sequential body movement, ensuring your weight transfer aligns with your swing mechanics for consistent results.
+  NOT CAUGHT
+
+======================================================================
+[rephrase_compare_to_players] message: 'how does my weight transfer compare to other players at my level?'
+======================================================================
+  route=unavailable_comparison tier=3 success=True escalated_from_tier3=False
+  text: I don't have benchmark data to compare you against -- here's general guidance: Weight transfer varies among players based on individual biomechanics and training, but proper execution is key for generating power and consistency. Focus on smooth, coordinated movement rather than direct comparisons. Coaches can provide personalized feedback on technique effectiveness, but general advice emphasizes maintaining balance and timing during the transfer phase.
+  CAUGHT (forced to unavailable_comparison)
+
+======================================================================
+[rephrase_skill_level] message: 'is my weight transfer ratio good for my skill level?'
+======================================================================
+  route=new_grounded_claim tier=2 success=False escalated_from_tier3=False
+  text: I couldn't come up with a confidently-grounded answer to that one -- try rephrasing, or ask about a specific measurement from your results.
+  NOT CAUGHT
+
+======================================================================
+[rephrase_someone_at_my_stage] message: 'what would be normal for someone at my stage of playing?'
+======================================================================
+  route=unavailable_comparison tier=3 success=True escalated_from_tier3=False
+  text: I don't have benchmark data to compare you against -- here's general guidance: Progress varies widely depending on practice frequency and focus, but consistency in fundamentals like grip, stance, and footwork typically leads to steady improvement over time. Plateaus are common at all stages; prioritize quality over quantity in practice sessions and remain patient with your development.
+  CAUGHT (forced to unavailable_comparison)
+
+######################################################################
+# PART B -- deterministic: force router to new_grounded_claim,
+# guaranteeing tier 2 runs and (if grounding succeeds) produces a
+# real percentile citation, then confirm the backstop catches it
+######################################################################
+
+======================================================================
+[original_2026-08-10 / forced new_grounded_claim] message: "what's a good weight transfer ratio for a player at my level?"
+======================================================================
+  route=new_grounded_claim tier=2 success=False escalated_from_tier3=False
+  text: I couldn't come up with a confidently-grounded answer to that one -- try rephrasing, or ask about a specific measurement from your results.
+  [tier 2 itself failed to ground -- backstop not exercised this attempt]
+
+======================================================================
+[rephrase_compare_to_players / forced new_grounded_claim] message: 'how does my weight transfer compare to other players at my level?'
+======================================================================
+  route=new_grounded_claim tier=2 success=False escalated_from_tier3=False
+  text: I couldn't come up with a confidently-grounded answer to that one -- try rephrasing, or ask about a specific measurement from your results.
+  [tier 2 itself failed to ground -- backstop not exercised this attempt]
+
+======================================================================
+[rephrase_skill_level / forced new_grounded_claim] message: 'is my weight transfer ratio good for my skill level?'
+======================================================================
+  route=new_grounded_claim tier=2 success=False escalated_from_tier3=False
+  text: I couldn't come up with a confidently-grounded answer to that one -- try rephrasing, or ask about a specific measurement from your results.
+  [tier 2 itself failed to ground -- backstop not exercised this attempt]
+
+======================================================================
+[rephrase_someone_at_my_stage / forced new_grounded_claim] message: 'what would be normal for someone at my stage of playing?'
+======================================================================
+  route=unavailable_comparison tier=3 success=True escalated_from_tier3=False
+  text: I don't have benchmark data to compare you against -- here's general guidance: Progress varies widely depending on practice frequency and focus, but consistency in fundamentals like grip, stance, and footwork typically leads to steady improvement. Plateaus are common at all stages; prioritize quality over quantity in practice sessions to build sustainable skills.
+  CAUGHT (forced to unavailable_comparison)
+
+######################################################################
+[summary]
+######################################################################
+Part A (natural): 2/4 messages ended up correctly showing the disclaimer.
+  [FAIL] original_2026-08-10: effective route=general_note
+  [OK] rephrase_compare_to_players: effective route=unavailable_comparison
+  [FAIL] rephrase_skill_level: effective route=new_grounded_claim
+  [OK] rephrase_someone_at_my_stage: effective route=unavailable_comparison
+Part B (forced new_grounded_claim): 1/1 exercised attempts caught (3 attempt(s) had tier 2 itself fail to ground, not exercising the backstop).
+  [SKIPPED (tier2 ungrounded)] original_2026-08-10: effective route=new_grounded_claim
+  [SKIPPED (tier2 ungrounded)] rephrase_compare_to_players: effective route=new_grounded_claim
+  [SKIPPED (tier2 ungrounded)] rephrase_skill_level: effective route=new_grounded_claim
+  [OK] rephrase_someone_at_my_stage: effective route=unavailable_comparison
+
+FAIL: at least one message was NOT caught by the backstop -- see FAIL lines above.

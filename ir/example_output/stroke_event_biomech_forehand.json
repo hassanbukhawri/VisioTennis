@@ -1,0 +1,326 @@
+{
+  "schema_version": "0.2.0",
+  "event_id": "1d176cda-1eb7-4183-88b0-c98b48d35b18",
+  "created_at": "2026-07-19T13:42:12.196731Z",
+  "match_id": null,
+  "point_id": null,
+  "player_id": "p_biomech_demo_forehand",
+  "player_side": "near",
+  "source_video": "COMPOSITE (not one real video): ball=game2/Clip6, court=LqG7D76UmE0_300, stroke=StrokeClassification/processed/test/row_idx=10 (collapsed class: forehand)",
+  "frame_range": {
+    "start_frame": 0,
+    "end_frame": 11,
+    "fps": 30.0
+  },
+  "ball": {
+    "trajectory": [
+      {
+        "frame": 0,
+        "pixel": {
+          "x_px": 572.5,
+          "y_px": 302.5
+        },
+        "court": {
+          "x_m": 4.339706896152646,
+          "y_m": 10.630381629875878
+        },
+        "visible": true,
+        "confidence": 0.9680228233337402,
+        "event_type": "flight"
+      },
+      {
+        "frame": 1,
+        "pixel": {
+          "x_px": 570.0,
+          "y_px": 295.0
+        },
+        "court": {
+          "x_m": 4.2773315151469244,
+          "y_m": 10.034934417433476
+        },
+        "visible": true,
+        "confidence": 0.9744536876678467,
+        "event_type": "flight"
+      },
+      {
+        "frame": 2,
+        "pixel": {
+          "x_px": 567.5,
+          "y_px": 287.5
+        },
+        "court": {
+          "x_m": 4.21286878545342,
+          "y_m": 9.419560978689992
+        },
+        "visible": true,
+        "confidence": 0.9739418625831604,
+        "event_type": "flight"
+      },
+      {
+        "frame": 3,
+        "pixel": {
+          "x_px": 565.0,
+          "y_px": 282.5
+        },
+        "court": {
+          "x_m": 4.1538642654854705,
+          "y_m": 8.997826371724276
+        },
+        "visible": true,
+        "confidence": 0.9643882513046265,
+        "event_type": "flight"
+      },
+      {
+        "frame": 4,
+        "pixel": {
+          "x_px": 565.0,
+          "y_px": 277.5
+        },
+        "court": {
+          "x_m": 4.138472663749068,
+          "y_m": 8.566211884919523
+        },
+        "visible": true,
+        "confidence": 0.9607347249984741,
+        "event_type": "flight"
+      },
+      {
+        "frame": 5,
+        "pixel": {
+          "x_px": 562.5,
+          "y_px": 275.0
+        },
+        "court": {
+          "x_m": 4.085427424987382,
+          "y_m": 8.346951407594135
+        },
+        "visible": true,
+        "confidence": 0.969458281993866,
+        "event_type": "flight"
+      },
+      {
+        "frame": 6,
+        "pixel": {
+          "x_px": 562.5,
+          "y_px": 272.5
+        },
+        "court": {
+          "x_m": 4.0772476591622215,
+          "y_m": 8.124895995545637
+        },
+        "visible": true,
+        "confidence": 0.9547227025032043,
+        "event_type": "flight"
+      },
+      {
+        "frame": 7,
+        "pixel": {
+          "x_px": 560.0,
+          "y_px": 272.5
+        },
+        "court": {
+          "x_m": 4.031770816113246,
+          "y_m": 8.125163855156849
+        },
+        "visible": true,
+        "confidence": 0.9657859206199646,
+        "event_type": "flight"
+      },
+      {
+        "frame": 8,
+        "pixel": {
+          "x_px": 557.5,
+          "y_px": 272.5
+        },
+        "court": {
+          "x_m": 3.9862950234268495,
+          "y_m": 8.125431708581404
+        },
+        "visible": true,
+        "confidence": 0.9543716311454773,
+        "event_type": "flight"
+      },
+      {
+        "frame": 9,
+        "pixel": {
+          "x_px": 557.5,
+          "y_px": 275.0
+        },
+        "court": {
+          "x_m": 3.9949967655384206,
+          "y_m": 8.347478945780585
+        },
+        "visible": true,
+        "confidence": 0.9618930816650391,
+        "event_type": "flight"
+      },
+      {
+        "frame": 10,
+        "pixel": {
+          "x_px": 555.0,
+          "y_px": 277.5
+        },
+        "court": {
+          "x_m": 3.958643383262926,
+          "y_m": 8.567250914022448
+        },
+        "visible": true,
+        "confidence": 0.9695871472358704,
+        "event_type": "flight"
+      },
+      {
+        "frame": 11,
+        "pixel": {
+          "x_px": 552.5,
+          "y_px": 282.5
+        },
+        "court": {
+          "x_m": 3.9316166001268895,
+          "y_m": 8.999086124520115
+        },
+        "visible": true,
+        "confidence": 0.9722166657447815,
+        "event_type": "flight"
+      }
+    ],
+    "contact_frame": null,
+    "bounce_frame": null,
+    "source_model": {
+      "component": "ball",
+      "checkpoint": "tracknet_best.pt",
+      "metric_name": "val_pck@4px",
+      "metric_value": 0.9637339404781265,
+      "source_file": "game2/Clip6"
+    }
+  },
+  "court": {
+    "keypoints_px": [
+      {
+        "x_px": 390.1401901245117,
+        "y_px": 196.91392421722412
+      },
+      {
+        "x_px": 888.709716796875,
+        "y_px": 198.3319330215454
+      },
+      {
+        "x_px": 133.05981636047363,
+        "y_px": 566.97594165802
+      },
+      {
+        "x_px": 1145.8855438232422,
+        "y_px": 568.8466644287109
+      },
+      {
+        "x_px": 454.73228454589844,
+        "y_px": 196.83292150497437
+      },
+      {
+        "x_px": 261.2036895751953,
+        "y_px": 566.2777948379517
+      },
+      {
+        "x_px": 828.7845611572266,
+        "y_px": 197.22310781478882
+      },
+      {
+        "x_px": 1018.5328674316406,
+        "y_px": 567.5197649002075
+      },
+      {
+        "x_px": 425.74642181396484,
+        "y_px": 245.81510066986084
+      },
+      {
+        "x_px": 849.9696350097656,
+        "y_px": 244.99606132507324
+      },
+      {
+        "x_px": 332.5569152832031,
+        "y_px": 425.9044933319092
+      },
+      {
+        "x_px": 945.2025604248047,
+        "y_px": 425.4086494445801
+      },
+      {
+        "x_px": 640.0929260253906,
+        "y_px": 245.3087854385376
+      },
+      {
+        "x_px": 639.1616439819336,
+        "y_px": 425.6748962402344
+      }
+    ],
+    "keypoints_confidence": null,
+    "homography_matrix": [
+      [
+        0.048693279855571654,
+        0.034052295467892665,
+        -25.743987663472154
+      ],
+      [
+        -0.0003876722012243069,
+        0.2896643085499454,
+        -56.944306109457635
+      ],
+      [
+        -0.000012378059494550763,
+        0.006189076705603657,
+        1.0
+      ]
+    ],
+    "homography_reprojection_error_m": 0.05214413756622412,
+    "source_model": {
+      "component": "court",
+      "checkpoint": "court_kp_best.pt",
+      "metric_name": "val_dist_px",
+      "metric_value": 6.14145085471017,
+      "source_file": "LqG7D76UmE0_300.png"
+    }
+  },
+  "stroke": {
+    "predicted_class": "forehand",
+    "confidence": 0.9999736547470093,
+    "class_probabilities": {
+      "forehand": 0.9999736547470093,
+      "backhand": 0.000012437556506483816,
+      "serve": 9.184807775453052e-11,
+      "volley": 0.000013806024981022347,
+      "smash": 6.487126569254542e-8
+    },
+    "source_model": {
+      "component": "stroke",
+      "checkpoint": "stroke_gru_best.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.8281884627275344,
+      "source_file": "StrokeClassification/processed/test/row_idx=10 (collapsed class: forehand)"
+    }
+  },
+  "momentum": null,
+  "biomechanics": {
+    "contact_frame": 34,
+    "contact_frame_source": "peak_wrist_speed_proxy",
+    "dominant_wrist": "left",
+    "dominant_wrist_source": "max_displacement_heuristic",
+    "wrist_height_ratio": 1.8788307061440892,
+    "shoulder_rotation_deg": 171.71543884277344,
+    "hip_rotation_deg": 175.6658172607422,
+    "shoulder_hip_separation_deg": 3.95037841796875,
+    "knee_flex_left_deg": 178.73492099346177,
+    "knee_flex_right_deg": 172.37806603424403,
+    "stance_width_ratio": 0.9612701966882359,
+    "weight_transfer_ratio": 0.31707120454748405,
+    "follow_through_extension_ratio": 2.6675081152429128,
+    "forearm_orientation_deg": 102.78707885742188,
+    "elbow_angle_deg": 17.50587060123927,
+    "source_model": {
+      "component": "biomechanics",
+      "checkpoint": "pose_landmarker_full.task (upstream MediaPipe Pose landmarks; geometric derivation itself has no learned weights)",
+      "metric_name": "n/a",
+      "metric_value": null,
+      "source_file": "StrokeClassification/processed/test/row_idx=10 (collapsed class: forehand)"
+    }
+  },
+  "provenance": []
+}

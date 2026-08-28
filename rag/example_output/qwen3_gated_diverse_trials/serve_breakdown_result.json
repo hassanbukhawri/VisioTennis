@@ -1,0 +1,39 @@
+{
+  "session_name": "serve_breakdown",
+  "explanation": "first_serve_pct=22.67 (6.0 std below average); first_serve_points_won_pct=23.12 (6.0 std below average); double_fault_rate=0.19 (6.0 std above average)",
+  "expected_features": [
+    "double_fault_rate",
+    "first_serve_pct",
+    "first_serve_points_won_pct"
+  ],
+  "retrieved_topics": [
+    "double_fault_rate",
+    "first_serve_points_won_pct",
+    "second_serve_points_won_pct"
+  ],
+  "retrieval_recall": 0.6666666666666666,
+  "success": true,
+  "n_attempts": 2,
+  "total_latency_s": 82.57799999999952,
+  "failure_reason": "",
+  "attempts": [
+    {
+      "attempt_num": 1,
+      "latency_s": 53.23499999999967,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 6,
+      "grounded_pass_count": 5,
+      "accepted": false
+    },
+    {
+      "attempt_num": 2,
+      "latency_s": 29.342999999999847,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 6,
+      "grounded_pass_count": 6,
+      "accepted": true
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+[
+  {
+    "name": "session_record_0.json",
+    "latency_s": 33.5,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your double-fault rate was 0.16, which is higher than usual. This suggests you may have been pushing too hard on your second serve under pressure, especially during critical moments like break points or late in games. Consider reviewing these situations to see if adjustments in strategy or mindset could help."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your unforced error rate was 0.34, which is higher than usual. This could indicate fatigue or a need to refine a specific shot's technique. Check when these errors occurred during the session to determine if they were clustered late in the session or tied to a particular shot."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your first-serve points won percentage was 53.74, which is lower than usual. This could be due to the returner reading your serve well today. Before assuming a problem with your serve, consider whether the returner's performance played a role in this dip."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your average rally length was 3.52, which suggests that rallies were relatively short during the session. This could indicate that you or your opponent were able to end points quickly, possibly due to strong shot-making or effective net play."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your average reaction time was 244.33 milliseconds, which is a key indicator of how quickly you responded to your opponent's shots. This is a solid number, but you may want to work on improving your anticipation during rallies to reduce this time further."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You covered a total distance of 2520.33 meters during the session, which is a strong indicator of your overall court coverage and movement. Maintaining this level of activity is important for stamina and consistency during long matches."
+      }
+    ]
+  },
+  {
+    "name": "session_record_1.json",
+    "latency_s": 23.061999999999898,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "general_note",
+        "text": "Your break-point save rate was low this session, but a handful of break points isn't enough to draw real conclusions from. Don't change anything based on this alone -- just watch this number over your next few sessions before treating it as a pattern."
+      },
+      {
+        "type": "general_note",
+        "text": "You're winning fewer points behind your first serve than usual this session. Before assuming something's wrong with your game, consider that the returner may just have read your serve well today -- this kind of dip is often about them, not you."
+      },
+      {
+        "type": "general_note",
+        "text": "You made more unforced errors than usual today. Check when they happened -- a cluster late in the session points to fatigue, so rest a bit more between reps; errors on one specific shot point to that shot's technique instead."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your first-serve percentage was 43.13, which is lower than average. This suggests that you may be struggling with consistency in your first serves. Focus on practicing your serve technique and maintaining a steady rhythm during matches."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your unforced error rate was 0.32, which is higher than average. This indicates that you may be making more mistakes than usual during rallies. Pay attention to your shot selection and focus on maintaining control during points."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your break-point save rate was 13.66, which is lower than average. This suggests that you may be struggling to hold your serve when facing break points. Work on improving your mental focus and shot selection during critical moments in the game."
+      }
+    ]
+  },
+  {
+    "name": "session_record_2.json",
+    "latency_s": 31.452999999999975,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "You made more unforced errors than usual today. Check when they happened -- a cluster late in the session points to fatigue, so rest a bit more between reps; errors on one specific shot point to that shot's technique instead."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your break-point save rate was low this session, but a handful of break points isn't enough to draw real conclusions from. Don't change anything based on this alone -- just watch this number over your next few sessions before treating it as a pattern."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "You covered less ground than usual today. Before treating that as a fitness or effort issue, check whether the session was shorter or points were ending quicker than usual -- both would explain it without anything being wrong."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your first-serve percentage was slightly below average, which could indicate some inconsistency in your serve placement or timing. Focus on maintaining a consistent rhythm during your serve routine."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your second-serve points won percentage was lower than average, which suggests that you may need to work on improving your second-serve placement and consistency. Consider practicing your second-serve strategy during your next session."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your average rally length was slightly below average, which could indicate that you are not extending points as much as you could. Try to focus on maintaining longer rallies by improving your shot selection and consistency."
+      }
+    ]
+  },
+  {
+    "name": "stroke_event_biomech_serve.json",
+    "latency_s": 33.047000000000025,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your shoulder and hip separation is on the lower end of the range for serves, which may suggest that your upper body is not fully rotating relative to your hips at contact. This could impact the power and accuracy of your serve; consider working on increasing your shoulder rotation while keeping your hips stable."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your right knee is quite straight at contact, which is less common among serve clips in our dataset. This might indicate that you're not bending your knees enough at the moment of contact, potentially affecting your balance and power. However, this is a single instant measurement and should be considered alongside other biomechanical data."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your stance width is on the lower end of the range for serves, which might suggest that your feet are closer together at contact. This could influence your stability and weight transfer during the serve. However, this is a single instant measurement and should be interpreted alongside other biomechanical data."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height ratio is relatively high, which may indicate that your wrist is positioned higher than average at contact. This could affect the trajectory and spin of your serve. Consider experimenting with slightly lowering your wrist height to see how it impacts your shot."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your shoulder rotation is quite high, which is a positive sign for generating power in your serve. However, ensure that this rotation is coordinated with your hip movement to maximize efficiency and reduce strain on your shoulder."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your follow-through extension is slightly above average, which may indicate that you're extending your arm fully after contact. This is generally a good sign for ensuring proper follow-through and maintaining control of the ball. Continue focusing on a smooth and extended follow-through."
+      }
+    ]
+  },
+  {
+    "name": "stroke_event_biomech_volley.json",
+    "latency_s": 20.84400000000005,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height ratio is on the lower end for volley strokes, which might suggest a flatter contact point or a later ball take. If it doesn't feel like an issue, there's no immediate concern here."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer ratio is higher than most volley strokes, indicating a strong forward shift into the shot. This is a good sign, but ensure your back foot is driving effectively as you swing."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your left knee flexion at contact is typical for volley strokes, so there's no specific adjustment needed based on this measurement alone."
+      },
+      {
+        "type": "general_note",
+        "text": "Your shoulder rotation is quite high, which is common for volley strokes. Focus on maintaining a balanced rotation to avoid over-rotating and losing control of the shot."
+      },
+      {
+        "type": "general_note",
+        "text": "Your hip rotation is also quite high, which is typical for volley strokes. Ensure your hips are rotating in sync with your shoulders for better shot control and power."
+      },
+      {
+        "type": "general_note",
+        "text": "Your elbow angle is within a normal range for volley strokes. Keep it consistent to maintain a stable hitting position."
+      }
+    ]
+  },
+  {
+    "name": "real_history::1000000058.mp4",
+    "latency_s": 22.73400000000038,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer is at the highest level observed in our dataset for volley strokes, which suggests you're effectively shifting your weight forward into the shot. This is a strong indicator of good forward momentum at contact."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your right knee is very bent at contact, which is on the higher end for volley strokes. While this is not something to fix outright, it's worth noting that most players have close to straight legs at contact, so this could be a unique trait of your stroke style."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your elbow is quite bent at contact, which is on the higher end for volley strokes. This is a common variation among players, so it's not something to change unless it feels inconsistent with your usual form."
+      },
+      {
+        "type": "general_note",
+        "text": "Your weight transfer is exceptionally strong, which is great for generating power in your volley. Consider focusing on maintaining this forward momentum while ensuring your follow-through is smooth and controlled."
+      },
+      {
+        "type": "general_note",
+        "text": "Your right knee is very bent at contact, which is a unique trait. If you're comfortable with your current form and feel it's working for you, there's no need to change it. However, if you're looking to refine your technique, a coach can help you analyze it further on video."
+      },
+      {
+        "type": "general_note",
+        "text": "Your elbow is quite bent at contact, which is a common variation. If this feels natural for you and you're hitting the ball well, there's no need to adjust it. However, if you're unsure, a coach can help you assess it on video."
+      }
+    ]
+  },
+  {
+    "name": "real_history::1000000211.mp4",
+    "latency_s": 21.014999999999418,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer is at the highest level observed in our dataset, which suggests you're effectively shifting your weight forward into the shot. This is a strong indicator of power generation, so keep driving off your back foot as you swing."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your right knee is extremely bent at contact, placing you in the top 3% of backhand strokes in our dataset. This is a common posture at contact and doesn't necessarily indicate a problem, but you may want to experiment with slightly straighter knees to see if it affects your balance or follow-through."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height is on the higher end for backhand strokes, which may suggest a flatter swing style or a later contact point. If this feels natural to you and doesn't cause any issues, there's no need to change it."
+      },
+      {
+        "type": "general_note",
+        "text": "Your shoulder and hip rotation are closely aligned, which is typical for a backhand stroke. This suggests good coordination between your upper and lower body during the swing."
+      },
+      {
+        "type": "general_note",
+        "text": "Your elbow angle is within a normal range for a backhand stroke, which is good. This helps maintain control and consistency in your shot."
+      },
+      {
+        "type": "general_note",
+        "text": "Your stance width is slightly wider than average, which can help with stability during the backhand stroke. This is a good setup for generating power and maintaining balance."
+      }
+    ]
+  },
+  {
+    "name": "real_history::1000000261.mp4",
+    "latency_s": 32.92199999999957,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height ratio is unusually high for a backhand stroke, which may indicate a higher contact point than typical for this shot type. This could be due to your natural swing style or timing, but it's worth considering how this affects your shot shape and consistency."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your stance width ratio is on the lower end for backhand strokes, which might suggest a narrower stance at the moment of contact. This could influence your balance or stability during the shot, so consider how this feels in your overall swing mechanics."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your left knee flexion is on the lower end for backhand strokes, which might suggest less knee bend at the moment of contact. This could affect your lower body stability, so consider how this feels in your overall swing mechanics."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your shoulder rotation is quite high, which may indicate a strong rotational component in your backhand stroke. This can be a positive trait for generating power, but ensure it's not causing unnecessary tension in your upper body."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your follow-through extension ratio is above average, which may indicate a longer follow-through on your backhand stroke. This can contribute to better shot control and direction, but ensure it's not causing you to lose balance or timing."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your elbow angle is on the higher end, which may suggest a more extended elbow during contact. This can help with control and accuracy, but ensure it's not limiting your power or causing discomfort."
+      }
+    ]
+  },
+  {
+    "name": "real_history::1000000339.mp4",
+    "latency_s": 30.0,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer is at the 100.0th percentile, meaning you're shifting forward into the shot very effectively. This suggests strong forward momentum at contact, which is great for power and shot direction. Try to maintain this as it's a key factor in driving the ball forward."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your left knee flexion is at the 87.5th percentile, indicating that your left knee is very bent at contact. This is typical for forehand strokes and suggests good leg engagement. Continue to focus on keeping your knees slightly bent to maintain balance and power."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your right knee flexion is at the 82.8th percentile, which is also on the higher end for forehand strokes. This suggests good leg engagement and balance at contact. Keep this in mind as it contributes to your overall stability during the shot."
+      },
+      {
+        "type": "general_note",
+        "text": "Your stance width is measured at a single instant and doesn't reflect your overall footwork. It's best to consider this alongside other biomechanical data rather than in isolation. Focus on maintaining a stable base throughout your swing."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height ratio is slightly above average, which may indicate a higher wrist position at contact. This could influence your shot's trajectory and spin. Experiment with slight adjustments to see how it affects your shot shape."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your shoulder rotation is quite pronounced, which is typical for a powerful forehand. This suggests good rotational engagement from your upper body. Ensure that you're not over-rotating, as this can lead to imbalance later in the stroke."
+      }
+    ]
+  },
+  {
+    "name": "real_history::1000144475.mp4",
+    "latency_s": 21.53099999999995,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer is exceptionally strong, showing maximum forward momentum into the shot. This can help generate more power, but ensure you're not overcommitting and losing balance in the follow-through."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your follow-through extension is unusually limited, which may restrict the full extension of your arm after contact. Try to allow your arm to extend more naturally through the follow-through to maximize shot shape and control."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your shoulder-to-hip separation is on the lower end of the range for backhand strokes. This could indicate a more compact swing, but be mindful of ensuring enough separation for proper rotation and power generation."
+      },
+      {
+        "type": "general_note",
+        "text": "Your knee flexion is well within a typical range, showing good leg bend at contact. This helps maintain balance and allows for a smooth follow-through."
+      },
+      {
+        "type": "general_note",
+        "text": "Your stance width is slightly wider than average, which can help with stability. However, ensure it's not too wide that it restricts your rotational movement during the swing."
+      },
+      {
+        "type": "general_note",
+        "text": "Your forearm orientation is at a standard angle for a backhand stroke, which supports proper racket face control. Focus on maintaining this angle through contact for consistent ball direction."
+      }
+    ]
+  },
+  {
+    "name": "real_history::1000146654.mp4",
+    "latency_s": 23.42200000000048,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer is at the highest level observed in our dataset, which suggests you're effectively shifting your weight forward into the shot. This is a strong indicator of powerful shot-making, but ensure your back foot is driving through the shot as you swing to maintain consistency."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your stance width is on the lower end of the range for backhand strokes, which may indicate a narrower stance. While this can be effective for balance, consider experimenting with a slightly wider stance to see if it improves your stability during the stroke."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your elbow angle is on the higher end of the range for backhand strokes. This suggests a more extended elbow at contact, which can be beneficial for generating power. However, ensure that this position is consistent and not causing tension in your arm or shoulder."
+      },
+      {
+        "type": "general_note",
+        "text": "Your knee flexion on the left side is quite high, which may indicate a deep knee bend. This can help with stability and power generation, but ensure that you're not over-bending your knees as it may affect your balance during the follow-through."
+      },
+      {
+        "type": "general_note",
+        "text": "Your follow-through extension ratio is moderate, which suggests a balanced follow-through. This is a good sign, but consider focusing on extending your arm fully through the shot to maximize power and control."
+      },
+      {
+        "type": "general_note",
+        "text": "Your shoulder rotation is quite pronounced, which can be a good sign of generating power from your upper body. However, ensure that your rotation is controlled and not causing any imbalance in your swing."
+      }
+    ]
+  },
+  {
+    "name": "real_history::clip1_serve_practice.mp4",
+    "latency_s": 23.23400000000038,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height ratio is unusually high for a volley, which may suggest a higher contact point than typical for this shot type. This could be due to your natural swing style or timing, so consider whether adjusting your contact point might help with consistency."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your right knee flexion is on the higher end for a volley, which is common for many players at contact. This alone doesn't indicate a problem, but it's worth noting how it feels in your own motion and whether it aligns with your usual technique."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer ratio is on the higher end for a volley, which suggests a strong forward shift of weight into the shot. This is a positive sign, but be mindful of how it feels in your motion and whether it's consistent with your overall balance and follow-through."
+      },
+      {
+        "type": "general_note",
+        "text": "Your shoulder rotation is quite high, which is typical for a volley. This suggests a full rotation of the upper body at contact, which is generally a good sign for generating power and control in this shot type."
+      },
+      {
+        "type": "general_note",
+        "text": "Your hip rotation is also quite high, which is common for a volley. This indicates a strong rotational movement from the lower body, which can contribute to the overall power and accuracy of your volley."
+      },
+      {
+        "type": "general_note",
+        "text": "Your elbow angle is on the lower side, which may indicate a more extended elbow at contact. This is a common feature in volleys and can help with maintaining a firm and controlled strike through the ball."
+      }
+    ]
+  },
+  {
+    "name": "real_history::clip2_teen_practice.mp4",
+    "latency_s": 22.375,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer is at the highest level observed in our dataset, which suggests you're effectively shifting your weight forward into the shot. This is great for generating power, but ensure you're maintaining balance and not overcommitting too early."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your right knee is extremely bent at contact, which is on the higher end of what we've seen in our dataset. This is typical for many players at contact, so there's no immediate concern unless you're experiencing discomfort or inefficiency in your swing."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height is on the higher end for this shot type, which may indicate a flatter swing style or a later contact point. If this feels natural to you and isn't causing any issues, there's no need to change it."
+      },
+      {
+        "type": "general_note",
+        "text": "You're effectively transferring your weight forward into the shot, which is great for generating power. Try to maintain this as you continue to refine your technique."
+      },
+      {
+        "type": "general_note",
+        "text": "Your knee flex is on the higher end, but this is common for many players. If you're not experiencing any discomfort, there's no need to change your technique."
+      },
+      {
+        "type": "general_note",
+        "text": "Your wrist height is on the higher end for this shot type. If this feels natural to you and isn't causing any issues, there's no need to change it."
+      }
+    ]
+  },
+  {
+    "name": "real_history::clip5_serve_setup.mp4",
+    "latency_s": 24.25,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height ratio is unusually high for a backhand stroke, which may indicate a higher contact point than typical for this shot type. This could be due to your natural swing style or timing, but it's worth considering how this affects your shot shape and consistency."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your stance width ratio is on the lower end of the spectrum for backhand strokes. This might suggest a narrower stance at the moment of contact, which could influence your balance and power generation. Consider how this aligns with your overall footwork and body positioning during the stroke."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your left knee flexion at contact is on the lower end of the percentile range for backhand strokes. This suggests your left knee is relatively straight at the moment of contact, which is common across many players. However, it's worth observing how this affects your lower body stability and weight transfer during the shot."
+      },
+      {
+        "type": "general_note",
+        "text": "Your shoulder rotation is quite high, which is a common feature in powerful backhand strokes. This suggests a strong rotational component in your swing, which can contribute to shot speed and control. Keep an eye on how this rotation aligns with your hip movement for optimal coordination."
+      },
+      {
+        "type": "general_note",
+        "text": "Your hip rotation is well within the typical range for backhand strokes. This suggests a balanced rotational movement from your lower body, which is important for generating power and maintaining stability during the shot."
+      },
+      {
+        "type": "general_note",
+        "text": "Your elbow angle is on the higher end of the normal range for backhand strokes. This could indicate a more extended elbow at contact, which may influence your shot's trajectory and control. Consider how this affects your overall swing mechanics and shot placement."
+      }
+    ]
+  },
+  {
+    "name": "real_history::scratch_verify_clip.mp4",
+    "latency_s": 23.46900000000005,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer is at the highest level observed in our dataset, which suggests you're effectively shifting your weight forward into the shot. This is a strong indicator of power generation and proper forward momentum during your forehand stroke."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your left knee is bent at a level that is higher than 87.5% of forehand strokes in our dataset. While this doesn't necessarily indicate a problem, it's worth noting that most players have nearly straight knees at contact, so you might explore whether this is affecting your balance or follow-through."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your right knee is bent at a level that is higher than 82.8% of forehand strokes in our dataset. Similar to your left knee, this is not necessarily a concern on its own, but you might consider how this affects your lower-body stability and whether it's consistent with your overall technique."
+      },
+      {
+        "type": "general_note",
+        "text": "Your stance width is slightly narrower than average, which may influence your balance and stability during the stroke. Consider experimenting with a slightly wider stance to see if it improves your control or power."
+      },
+      {
+        "type": "general_note",
+        "text": "Your wrist height is slightly above average, which may indicate a more extended follow-through. This could be beneficial for generating topspin, but ensure that it doesn't compromise your contact point or shot consistency."
+      },
+      {
+        "type": "general_note",
+        "text": "Your shoulder rotation is quite pronounced, which is a good sign for generating power in your forehand. However, ensure that this rotation is controlled and not causing any unnecessary tension in your upper body."
+      }
+    ]
+  },
+  {
+    "name": "real_history::scratch_verify_clip2.mp4",
+    "latency_s": 23.46900000000005,
+    "parse_ok": true,
+    "grounding_rate": 1.0,
+    "suspect": false,
+    "items": [
+      {
+        "type": "grounded_observation",
+        "text": "Your wrist height ratio is unusually high for a volley, which may suggest a higher contact point than typical for this shot type. This could be due to your natural swing style or timing, but it's worth checking if you're taking the ball earlier than usual."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your right knee flexion is on the higher end for a volley, which is typical for many players at contact. This measurement alone doesn't indicate a problem, but it's good to be aware of how your legs are positioned at the moment of impact."
+      },
+      {
+        "type": "grounded_observation",
+        "text": "Your weight transfer ratio is on the higher end for a volley, which suggests a significant shift of weight forward into the shot. This is a good sign, but be mindful of how your camera angle might affect this reading. If you feel like you're not driving off your back foot enough, try focusing on that aspect of your technique."
+      },
+      {
+        "type": "general_note",
+        "text": "Your shoulder rotation is quite high, which is a common feature in volleys. This suggests a full rotation of the upper body at contact, which is generally a positive sign for generating power and control in this shot type."
+      },
+      {
+        "type": "general_note",
+        "text": "Your hip rotation is also quite high, indicating a strong rotational movement from the lower body. This is typical for volleys and contributes to the overall power and follow-through of the shot."
+      },
+      {
+        "type": "general_note",
+        "text": "Your elbow angle is on the lower side, which is common for volleys. This suggests a more bent elbow at contact, which is typical for this shot type and helps in controlling the ball effectively."
+      }
+    ]
+  }
+]

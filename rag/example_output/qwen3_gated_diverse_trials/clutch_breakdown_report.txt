@@ -1,0 +1,5 @@
+grounding_rate = 3/3 grounded_observation items pass (100.0%)
+
+  [GROUNDED] (grounded_observation) "Your break-point save rate was zero today, but a handful of break points isn't enough to draw real conclusions. Monitor this number across your next few sessions before treating it as a pattern." -- features.break_points_saved_pct=0.0 confirmed
+  [GROUNDED] (grounded_observation) "You made more unforced errors than usual today. Check when they happened — a cluster late in the session points to fatigue, so rest more between reps; errors on one specific shot point to that shot's technique." -- features.unforced_error_rate=0.2489394921634392 confirmed
+  [GROUNDED] (grounded_observation) "Your reaction time was slower than usual today, especially later in the session — that's a classic fatigue marker, not a technical issue. Check how long you'd been playing and what time of day it was before reading too much into it." -- features.avg_reaction_time_ms=264.7665917403021 confirmed

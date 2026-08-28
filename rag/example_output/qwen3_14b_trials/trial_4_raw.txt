@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "text": "You had a higher double-fault rate than usual, which may indicate pushing too hard on second serves under pressure. Check if these occurred during critical points.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.double_fault_rate",
+        "cited_value": 0.15929321753546458
+      }
+    },
+    {
+      "text": "Your unforced error rate was above average. Consider whether fatigue or specific shot technique contributed, especially if errors clustered in certain situations.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.unforced_error_rate",
+        "cited_value": 0.3397054701523686
+      }
+    },
+    {
+      "text": "Your first-serve points won percentage was lower than usual. This might be due to the opponent reading your serves well today, so consider varying your serve patterns.",
+      "type": "grounded_observation",
+      "citation": {
+        "record_type": "SessionRecord",
+        "record_id": "a0a8a967-5f15-4951-a47b-85b4eca4c645",
+        "ir_field_path": "features.first_serve_points_won_pct",
+        "cited_value": 53.73725822766315
+      }
+    },
+    {
+      "text": "Maintaining consistent court coverage can help reduce unforced errors. Focus on moving efficiently between shots during rallies.",
+      "type": "general_note"
+    }
+  ]
+}

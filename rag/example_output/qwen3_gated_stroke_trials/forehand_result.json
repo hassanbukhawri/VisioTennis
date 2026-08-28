@@ -1,0 +1,89 @@
+{
+  "stroke_class": "forehand",
+  "predicted_class": "forehand",
+  "notable_features": [
+    {
+      "feature": "elbow_angle_deg",
+      "value": 17.50587060123927,
+      "stroke_class": "forehand",
+      "percentile": 2.5,
+      "n": 407,
+      "low_confidence": false,
+      "tail": true
+    },
+    {
+      "feature": "knee_flex_left_deg",
+      "value": 178.73492099346177,
+      "stroke_class": "forehand",
+      "percentile": 95.8,
+      "n": 407,
+      "low_confidence": false,
+      "tail": true
+    },
+    {
+      "feature": "follow_through_extension_ratio",
+      "value": 2.6675081152429128,
+      "stroke_class": "forehand",
+      "percentile": 92.1,
+      "n": 407,
+      "low_confidence": false,
+      "tail": true
+    }
+  ],
+  "success": true,
+  "n_attempts": 2,
+  "total_latency_s": 183.07799999999952,
+  "failure_reason": "",
+  "generated_items": [
+    {
+      "type": "grounded_observation",
+      "text": "Your elbow angle is unusually low, which may indicate a more closed wrist position at contact. Consider checking with a coach to ensure this isn't affecting your racquet face alignment.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "1d176cda-1eb7-4183-88b0-c98b48d35b18",
+        "ir_field_path": "biomechanics_percentile.elbow_angle_deg",
+        "cited_value": 2.5
+      }
+    },
+    {
+      "type": "grounded_observation",
+      "text": "Your left knee flex is on the higher end for this stroke, suggesting a more bent leg position at contact. While this isn't inherently problematic, ensure it's not limiting your weight transfer efficiency.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "1d176cda-1eb7-4183-88b0-c98b48d35b18",
+        "ir_field_path": "biomechanics_percentile.knee_flex_left_deg",
+        "cited_value": 95.8
+      }
+    },
+    {
+      "type": "grounded_observation",
+      "text": "Your follow-through extension is among the longest observed, which could indicate maximal power generation. Ensure this isn't causing imbalance in your stroke timing.",
+      "citation": {
+        "record_type": "StrokeEvent",
+        "record_id": "1d176cda-1eb7-4183-88b0-c98b48d35b18",
+        "ir_field_path": "biomechanics_percentile.follow_through_extension_ratio",
+        "cited_value": 92.1
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "attempt_num": 1,
+      "latency_s": 102.76599999999962,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 3,
+      "grounded_pass_count": 0,
+      "accepted": false
+    },
+    {
+      "attempt_num": 2,
+      "latency_s": 80.3119999999999,
+      "parse_ok": true,
+      "parse_error": "",
+      "grounded_observation_count": 3,
+      "grounded_pass_count": 3,
+      "accepted": true
+    }
+  ]
+}
