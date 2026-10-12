@@ -147,5 +147,3 @@ Department of Artificial Intelligence, University of Management and Technology, 
 ## License
 
 Not yet finalized. Given upstream dataset licensing constraints affecting parts of model development, a license for this repository will be added separately — do not assume permissive reuse until one is specified.
-
-<video src="assets/demo.mp4" controls width="100%"></video>
